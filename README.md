@@ -98,39 +98,6 @@ DevOps Automation • Innovation<br>
 
 ---
 
-## 🏆 **FEATURED PROJECTS**
-
-<div align="center">
-
-### 🤖 **SkillSync AI Learning Platform**
-
-**Tech Stack:** `MERN` `Gemini AI` `WebSocket` `AWS` `JWT`
-- 🧠 AI-driven education platform with 24/7 chatbot
-- 🌍 Real-time translation (10+ languages)
-- 📚 Personalized course generation
-- 🎤 Voice commands & PDF processing
-
----
-
-### ⚙️ **Automated DevOps Pipeline**
-
-**Tech Stack:** `Jenkins` `Docker` `SpringBoot` `SonarQube` `Prometheus`
-- 🔄 18-stage CI/CD pipeline
-- ✅ 100% test coverage guarantee
-- ⚡ Sub-2-minute deployments
-- 📊 Real-time monitoring with Grafana
-
----
-
-### 🦾 **Assistive Robotics System**
-
-**Tech Stack:** `Arduino` `Python` `IoT` `Bluetooth` `GPS`
-- 🗣️ Voice-controlled wheelchair mobility
-- 🏠 Smart home automation
-- 🚨 Emergency GPS alerts
-- 💊 Health monitoring system
-
-</div>
 
 ## 💼 **PROFESSIONAL EXPERIENCE**
 
