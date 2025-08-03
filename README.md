@@ -132,8 +132,6 @@ DevOps Automation • Innovation<br>
 
 </div>
 
----
-
 ## 💼 **PROFESSIONAL EXPERIENCE**
 
 <table>
