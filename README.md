@@ -117,8 +117,6 @@
 ### **🚀 READY TO TRANSFORM YOUR NEXT PROJECT?**
 *Let's build the future together - one commit at a time*
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60">
-
 </div>
 
 ---
@@ -130,13 +128,10 @@
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
+<!-- AI/ML Showcase Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&multiline=true&width=1000&height=120&lines=🤖+NEURAL+NETWORKS+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+DEEP+LEARNING;🧠+MACHINE+LEARNING+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+AI+SOLUTIONS;⚡+TENSORFLOW+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+PYTORCH;🔮+COMPUTER+VISION+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88+NLP" />
+
 <!-- Matrix Effect -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2000&pause=1000&color=00F5FF&center=true&vCenter=true&multiline=true&repeat=false&width=800&height=100&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━;%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20HACK%20THE%20MATRIX%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" />
-
-<!-- Cyberpunk Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=ChaiebDhia&style=for-the-badge&color=00f5ff&label=PROFILE+VIEWS" alt="Profile Views" />
-
-<!-- Glitch Effect GIF -->
-<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="100%" height="10"/>
 
 </div>
