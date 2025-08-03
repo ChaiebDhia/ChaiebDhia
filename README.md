@@ -96,20 +96,6 @@ DevOps Automation • Innovation<br>
 
 </div>
 
-<div align="center">
-
-### **📈 CONTRIBUTION GRAPH**
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaiebDhia&theme=cyberpunk&hide_border=true&point=00F5FF&line=FF006E&color=00F5FF" alt="Activity Graph" />
-
-</div>
-
-<div align="center">
-
-### **🏆 GITHUB TROPHIES**
-<img src="https://github-profile-trophy.vercel.app/?username=ChaiebDhia&theme=cyberpunk&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
-
-</div>
-
 ---
 
 ## 🏆 **FEATURED PROJECTS**
@@ -201,19 +187,19 @@ DevOps Automation • Innovation<br>
 <tr>
 <td align="center" width="200">
 <a href="https://linkedin.com/in/dhia-shayeb" target="_blank">
-<img src="https://img.shields.io/badge/🔗_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000&color=00F5FF&logoWidth=20" alt="LinkedIn" />
+<img src="https://img.shields.io/badge/🔗_LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=0077B5&color=ffffff" alt="LinkedIn" />
 </a>
 <br><sub><b>Professional Network</b></sub>
 </td>
 <td align="center" width="200">
 <a href="mailto:dhiashayeb6@gmail.com">
-<img src="https://img.shields.io/badge/📧_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000&color=FF006E&logoWidth=20" alt="Email" />
+<img src="https://img.shields.io/badge/📧_Email-ffffff?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=EA4335&color=ffffff" alt="Email" />
 </a>
 <br><sub><b>Direct Contact</b></sub>
 </td>
 <td align="center" width="200">
 <a href="https://dhiashayeb.vercel.app" target="_blank">
-<img src="https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&color=8A2BE2&logoWidth=20" alt="Portfolio" />
+<img src="https://img.shields.io/badge/🌐_Portfolio-ffffff?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=000000&color=ffffff" alt="Portfolio" />
 </a>
 <br><sub><b>My Digital Showcase</b></sub>
 </td>
