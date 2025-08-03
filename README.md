@@ -6,10 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;AI%2FML+Solutions+Developer;DevOps+Enthusiast;Cloud+Architecture+Specialist" alt="Typing SVG" />
 </div>
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=ChaiebDhia&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/ChaiebDhia?label=Followers&style=social" alt="Followers" />
-</p>
+
 
 ---
 
@@ -76,7 +73,6 @@ const dhia = {
 <div align="center">
 
 ### 🤖 **SkillSync AI Learning Platform**
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ChaiebDhia&repo=skillsync-ai&theme=cyberpunk)](https://github.com/ChaiebDhia/skillsync-ai)
 
 **Tech Stack:** `MERN` `Gemini AI` `WebSocket` `AWS` `JWT`
 - 🧠 AI-driven education platform with 24/7 chatbot
@@ -87,7 +83,6 @@ const dhia = {
 ---
 
 ### ⚙️ **Automated DevOps Pipeline**
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ChaiebDhia&repo=automated-devops-pipeline&theme=cyberpunk)](https://github.com/ChaiebDhia/automated-devops-pipeline)
 
 **Tech Stack:** `Jenkins` `Docker` `SpringBoot` `SonarQube` `Prometheus`
 - 🔄 18-stage CI/CD pipeline
@@ -98,7 +93,6 @@ const dhia = {
 ---
 
 ### 🦾 **Assistive Robotics System**
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ChaiebDhia&repo=assistive-robotics&theme=cyberpunk)](https://github.com/ChaiebDhia/assistive-robotics)
 
 **Tech Stack:** `Arduino` `Python` `IoT` `Bluetooth` `GPS`
 - 🗣️ Voice-controlled wheelchair mobility
@@ -155,14 +149,32 @@ const dhia = {
 
 ---
 
-## 🌐 **CONNECT WITH ME**
+## 🌐 **CONNECT WITH THE FUTURE**
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5)](https://linkedin.com/in/dhia-shayeb)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836)](mailto:dhiashayeb6@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white&labelColor=FF5722)](https://dhiashayeb.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=100000)](https://github.com/ChaiebDhia)
+<table>
+<tr>
+<td align="center" width="200">
+<a href="https://linkedin.com/in/dhia-shayeb" target="_blank">
+<img src="https://img.shields.io/badge/🔗_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000&color=00F5FF&logoWidth=20" alt="LinkedIn" />
+</a>
+<br><sub><b>Professional Network</b></sub>
+</td>
+<td align="center" width="200">
+<a href="mailto:dhiashayeb6@gmail.com">
+<img src="https://img.shields.io/badge/📧_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000&color=FF006E&logoWidth=20" alt="Email" />
+</a>
+<br><sub><b>Direct Contact</b></sub>
+</td>
+<td align="center" width="200">
+<a href="https://dhiashayeb.vercel.app" target="_blank">
+<img src="https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&color=8A2BE2&logoWidth=20" alt="Portfolio" />
+</a>
+<br><sub><b>My Digital Showcase</b></sub>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -170,12 +182,12 @@ const dhia = {
 
 <div align="center">
 
-### **🎮 ACHIEVEMENT UNLOCKED**
-**"Ready to revolutionize tech at leading companies"**
+<div align="center">
+
+### **🚀 READY TO TRANSFORM YOUR NEXT PROJECT?**
+**Let's build the future together - one commit at a time**
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60">
-
-**💡 "Innovation is my syntax, excellence is my runtime"**
 
 ---
 
