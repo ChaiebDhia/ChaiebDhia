@@ -1,135 +1,184 @@
 <div align="center">
-  <h1 style="font-size: 2.5em; margin-bottom: 0; color: #5D3FD3; animation: fadeIn 2s;">Hey there, I'm Dhia Shayeb 👋</h1>
-  <p style="font-size: 1.2em; margin-top: 0; color: #6c757d; animation: slideIn 1.5s;">Full-Stack Engineer | AI/ML Solutions Developer | DevOps Enthusiast</p>
 
-  <p style="animation: fadeIn 3s;">
-    I'm a versatile full-stack engineer and DevOps enthusiast passionate about crafting seamless web experiences and cloud-native solutions. Proficient in the MERN stack, Spring Boot, and cloud platforms like AWS and Azure.
-  </p>
+# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> DHIA SHAYEB <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
-  <div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; animation: bounceIn 2s;">
-    <a href="https://linkedin.com/in/dhia-shayeb" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>
-    <a href="mailto:dhiashayeb6@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-    </a>
-    <a href="https://github.com/ChaiebDhia" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-    </a>
-    <a href="https://dhiashayeb.vercel.app" target="_blank">
-      <img src="https://img.shields.io/badge/Website-5D3FD3?style=for-the-badge&logo=vercel&logoColor=white" alt="Website">
-    </a>
-  </div>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;AI%2FML+Solutions+Developer;DevOps+Enthusiast;Cloud+Architecture+Specialist" alt="Typing SVG" />
+</div>
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=ChaiebDhia&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/ChaiebDhia?label=Followers&style=social" alt="Followers" />
+</p>
+
+---
+
+## 🎯 **ABOUT ME**
+
+```javascript
+const dhia = {
+    location: "Tunis, Tunisia 🇹🇳",
+    currentRole: "Full-Stack Engineering Intern @ Tunisie Telecom",
+    education: "Engineering Student @ ESPRIT (Web Technologies & Internet Systems)",
+    passionate_about: ["AI/ML", "Cloud Architecture", "DevOps Automation", "Innovation"],
+    current_focus: "Building scalable cloud-native applications with AI integration",
+    life_motto: "Code with passion, deploy with precision, innovate with purpose"
+};
+```
+
+---
+
+## 🚀 **TECH ARSENAL**
+
+<div align="center">
+
+### **Languages & Frameworks**
+<p>
+  <img src="https://skillicons.dev/icons?i=javascript,typescript,python,java,dart,cpp,react,nextjs,nodejs,express,spring,flutter,graphql" />
+</p>
+
+### **Cloud & DevOps**
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,jenkins,terraform,linux,git,github" />
+</p>
+
+### **Databases & AI/ML**
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,firebase,tensorflow,pytorch" />
+</p>
+
+### **Tools & Design**
+<p>
+  <img src="https://skillicons.dev/icons?i=vscode,figma,postman,arduino,grafana" />
+</p>
+
 </div>
 
 ---
 
-### 🔥 Core Skills
+## 📊 **PERFORMANCE METRICS**
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; animation: fadeIn 2s;">
-  <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="margin-top: 0; color: #5D3FD3;">Programming</h3>
-    <span class="skill-badge">JavaScript</span>
-    <span class="skill-badge">Python</span>
-    <span class="skill-badge">Java</span>
-    <span class="skill-badge">TypeScript</span>
-    <span class="skill-badge">Dart</span>
-    <span class="skill-badge">C++</span>
-  </div>
+<div align="center">
+  
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=cyberpunk&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&langs_count=8&theme=cyberpunk"/>
 
-  <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="margin-top: 0; color: #5D3FD3;">Frontend</h3>
-    <span class="skill-badge">React.js</span>
-    <span class="skill-badge">Next.js</span>
-    <span class="skill-badge">HTML5</span>
-    <span class="skill-badge">CSS3</span>
-    <span class="skill-badge">Tailwind CSS</span>
-  </div>
+</div>
 
-  <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="margin-top: 0; color: #5D3FD3;">Backend</h3>
-    <span class="skill-badge">Node.js</span>
-    <span class="skill-badge">Spring Boot</span>
-    <span class="skill-badge">GraphQL</span>
-    <span class="skill-badge">REST APIs</span>
-  </div>
-
-  <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="margin-top: 0; color: #5D3FD3;">DevOps & Cloud</h3>
-    <span class="skill-badge">Docker</span>
-    <span class="skill-badge">Kubernetes</span>
-    <span class="skill-badge">AWS</span>
-    <span class="skill-badge">Azure</span>
-    <span class="skill-badge">Jenkins</span>
-  </div>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChaiebDhia&theme=cyberpunk" alt="GitHub Streak" />
 </div>
 
 ---
 
-### 🚀 Projects
+## 🏆 **FEATURED PROJECTS**
 
-<div style="animation: fadeIn 2.5s;">
-  <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="margin-top: 0; color: #5D3FD3;">SkillSync AI Learning Platform</h3>
-    <p>Created an AI-driven education platform with real-time translation (10+ languages), therapeutic assistance, and personalized course generation.</p>
-    <p><strong>Tech:</strong> MERN Stack, AWS, WebSocket, JWT, Gemini AI</p>
-    <a href="#" style="color: #5D3FD3; text-decoration: none;">→ View Project</a>
-  </div>
+<div align="center">
 
-  <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="margin-top: 0; color: #5D3FD3;">Automated DevOps Pipeline</h3>
-    <p>Engineered an 18-stage CI/CD pipeline for SpringBoot applications, ensuring 100% test coverage and zero critical issues.</p>
-    <p><strong>Tech:</strong> Jenkins, Docker, SonarQube, Prometheus, Grafana</p>
-    <a href="#" style="color: #5D3FD3; text-decoration: none;">→ View Project</a>
-  </div>
+### 🤖 **SkillSync AI Learning Platform**
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ChaiebDhia&repo=skillsync-ai&theme=cyberpunk)](https://github.com/ChaiebDhia/skillsync-ai)
+
+**Tech Stack:** `MERN` `Gemini AI` `WebSocket` `AWS` `JWT`
+- 🧠 AI-driven education platform with 24/7 chatbot
+- 🌍 Real-time translation (10+ languages)
+- 📚 Personalized course generation
+- 🎤 Voice commands & PDF processing
+
+---
+
+### ⚙️ **Automated DevOps Pipeline**
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ChaiebDhia&repo=automated-devops-pipeline&theme=cyberpunk)](https://github.com/ChaiebDhia/automated-devops-pipeline)
+
+**Tech Stack:** `Jenkins` `Docker` `SpringBoot` `SonarQube` `Prometheus`
+- 🔄 18-stage CI/CD pipeline
+- ✅ 100% test coverage guarantee
+- ⚡ Sub-2-minute deployments
+- 📊 Real-time monitoring with Grafana
+
+---
+
+### 🦾 **Assistive Robotics System**
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ChaiebDhia&repo=assistive-robotics&theme=cyberpunk)](https://github.com/ChaiebDhia/assistive-robotics)
+
+**Tech Stack:** `Arduino` `Python` `IoT` `Bluetooth` `GPS`
+- 🗣️ Voice-controlled wheelchair mobility
+- 🏠 Smart home automation
+- 🚨 Emergency GPS alerts
+- 💊 Health monitoring system
+
 </div>
 
 ---
 
-### 📈 GitHub Stats
+## 💼 **PROFESSIONAL EXPERIENCE**
 
-<div align="center" style="animation: fadeIn 3s;">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=vue" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&theme=vue" alt="Top Languages">
+<table>
+<tr>
+<td width="50%">
+
+### 🏢 **Tunisie Telecom** *(July - Aug 2025)*
+**Full-Stack Engineering Intern**
+- 📊 Analyzed 3+ key applications architecture
+- ⚡ Identified 10+ optimization opportunities
+- 🎨 Refined 3+ UI enhancements
+- 🚀 Prototyped 4 new portal features
+
+</td>
+<td width="50%">
+
+### 💻 **Bright Soft** *(July - Aug 2023)*
+**Full-Stack Engineer**
+- ⚡ Improved load times by 15%
+- 🤖 Integrated AI/NLP features
+- 📉 Reduced manual data entry by 20%
+- 🏗️ Enhanced microservices architecture
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎓 **EDUCATION & CERTIFICATIONS**
+
+<div align="center">
+
+| 🎯 **Degree** | 🏫 **Institution** | 📅 **Period** |
+|:---:|:---:|:---:|
+| **Engineer's Degree** - Web Technologies & Internet Systems | ESPRIT | 2024 - 2026 |
+| **Master's Degree** - Intelligent Web Applications | Higher Institute of Computer Science of Kef | 2023 - 2024 |
+| **Bachelor of Engineering** - Computer Science | Higher Institute of Computer Science of Kef | 2020 - 2023 |
+
+**🏅 Certifications:** Scrum Fundamentals Certified (SFC)
+
 </div>
 
 ---
 
-### 🌐 Let's Connect
+## 🌐 **CONNECT WITH ME**
 
-<div align="center" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; animation: bounceIn 2s;">
-  <a href="https://linkedin.com/in/dhia-shayeb" target="_blank">
-    <img src="https://raw.githubusercontent.com/ChaiebDhia/ChaiebDhia/main/assets/linkedin.gif" width="40" height="40" alt="LinkedIn">
-  </a>
-  <a href="mailto:dhiashayeb6@gmail.com">
-    <img src="https://raw.githubusercontent.com/ChaiebDhia/ChaiebDhia/main/assets/email.gif" width="40" height="40" alt="Email">
-  </a>
-  <a href="https://github.com/ChaiebDhia" target="_blank">
-    <img src="https://raw.githubusercontent.com/ChaiebDhia/ChaiebDhia/main/assets/github.gif" width="40" height="40" alt="GitHub">
-  </a>
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5)](https://linkedin.com/in/dhia-shayeb)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836)](mailto:dhiashayeb6@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=vercel&logoColor=white&labelColor=FF5722)](https://dhiashayeb.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=100000)](https://github.com/ChaiebDhia)
+
 </div>
 
-<style>
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  @keyframes slideIn {
-    from { transform: translateY(-20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
-  }
-  @keyframes bounceIn {
-    0% { transform: scale(0.8); opacity: 0; }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); opacity: 1; }
-  }
-  .skill-badge {
-    display: inline-block;
-    background: #5D3FD3;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin: 5px;
-    font-size: 0.8em;
-  }
-</style>
+---
+
+<div align="center">
+
+### **🎮 ACHIEVEMENT UNLOCKED**
+**"Ready to revolutionize tech at leading companies"**
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60">
+
+**💡 "Innovation is my syntax, excellence is my runtime"**
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer"/>
+
+</div>
