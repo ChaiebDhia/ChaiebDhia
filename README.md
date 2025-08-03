@@ -144,32 +144,126 @@ DevOps Automation • Innovation<br>
 
 ---
 
-## 🌐 **CONNECT WITH THE FUTURE**
-
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="200">
-<a href="https://linkedin.com/in/dhia-shayeb" target="_blank">
-<img src="https://img.shields.io/badge/🔗_LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=0077B5&color=ffffff" alt="LinkedIn" />
+### 🌐 **CONNECT WITH THE FUTURE**
+
+<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+<!-- LinkedIn Button with Cyberpunk Glow -->
+<a href="https://linkedin.com/in/dhia-shayeb" target="_blank" class="cyber-button" style="--clr:#00f5ff">
+  <span class="cyber-span">LINKEDIN</span>
+  <i class="cyber-i"></i>
 </a>
-<br><sub><b>Professional Network</b></sub>
-</td>
-<td align="center" width="200">
-<a href="mailto:dhiashayeb6@gmail.com">
-<img src="https://img.shields.io/badge/📧_Email-ffffff?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=EA4335&color=ffffff" alt="Email" />
+
+<!-- Email Button with Cyberpunk Glow -->
+<a href="mailto:dhiashayeb6@gmail.com" class="cyber-button" style="--clr:#ff00f5">
+  <span class="cyber-span">EMAIL</span>
+  <i class="cyber-i"></i>
 </a>
-<br><sub><b>Direct Contact</b></sub>
-</td>
-<td align="center" width="200">
-<a href="https://dhiashayeb.vercel.app" target="_blank">
-<img src="https://img.shields.io/badge/🌐_Portfolio-ffffff?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=000000&color=ffffff" alt="Portfolio" />
+
+<!-- Portfolio Button with Cyberpunk Glow -->
+<a href="https://dhiashayeb.vercel.app" target="_blank" class="cyber-button" style="--clr:#f5ff00">
+  <span class="cyber-span">PORTFOLIO</span>
+  <i class="cyber-i"></i>
 </a>
-<br><sub><b>My Digital Showcase</b></sub>
-</td>
-</tr>
-</table>
+
+</div>
+
+<style>
+  /* Cyberpunk Button Animation */
+  .cyber-button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 0;
+    color: var(--clr);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    transition: 0.5s;
+    border: 2px solid var(--clr);
+    border-radius: 0;
+    background: rgba(0,0,0,0.7);
+    box-shadow: 0 0 10px var(--clr), 0 0 20px var(--clr), 0 0 40px var(--clr);
+  }
+  
+  .cyber-button:hover {
+    color: #000;
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr), 0 0 40px var(--clr), 0 0 80px var(--clr);
+    transition-delay: 0.1s;
+  }
+  
+  .cyber-button .cyber-span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .cyber-button .cyber-i {
+    position: absolute;
+    display: block;
+    background: var(--clr);
+  }
+  
+  /* Top Animation */
+  .cyber-button .cyber-i:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+  }
+  
+  .cyber-button:hover .cyber-i:nth-child(1) {
+    left: 100%;
+  }
+  
+  /* Right Animation */
+  .cyber-button .cyber-i:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+  }
+  
+  .cyber-button:hover .cyber-i:nth-child(2) {
+    top: 100%;
+  }
+  
+  /* Bottom Animation */
+  .cyber-button .cyber-i:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+  }
+  
+  .cyber-button:hover .cyber-i:nth-child(3) {
+    right: 100%;
+  }
+  
+  /* Left Animation */
+  .cyber-button .cyber-i:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    transition: 0.5s;
+    transition-delay: 0.75s;
+  }
+  
+  .cyber-button:hover .cyber-i:nth-child(4) {
+    bottom: 100%;
+  }
+</style>
 
 </div>
 
