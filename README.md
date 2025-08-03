@@ -12,16 +12,41 @@
 
 ## 🎯 **ABOUT ME**
 
-```javascript
-const dhia = {
-    location: "Tunis, Tunisia 🇹🇳",
-    currentRole: "Full-Stack Engineering Intern @ Tunisie Telecom",
-    education: "Engineering Student @ ESPRIT (Web Technologies & Internet Systems)",
-    passionate_about: ["AI/ML", "Cloud Architecture", "DevOps Automation", "Innovation"],
-    current_focus: "Building scalable cloud-native applications with AI integration",
-    life_motto: "Code with passion, deploy with precision, innovate with purpose"
-};
-```
+<div align="center">
+
+### 🌟 **INNOVATING AT THE INTERSECTION OF AI & CLOUD**
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="100" height="100">
+<h3>🚀 CURRENT MISSION</h3>
+<b>Full-Stack Engineering Intern</b><br>
+@ Tunisie Telecom<br>
+<i>Optimizing enterprise applications</i>
+</td>
+<td align="center" width="33%">
+<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="100" height="100">
+<h3>🎓 ACADEMIC PURSUIT</h3>
+<b>Engineering Student @ ESPRIT</b><br>
+Web Technologies & Internet Systems<br>
+<i>Specializing in intelligent systems</i>
+</td>
+<td align="center" width="33%">
+<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="100" height="100">
+<h3>💡 PASSION AREAS</h3>
+<b>AI/ML • Cloud Architecture</b><br>
+DevOps Automation • Innovation<br>
+<i>Building tomorrow's solutions today</i>
+</td>
+</tr>
+</table>
+
+<br>
+
+### 📍 **Based in Tunis, Tunisia** | 🌟 **Building scalable cloud-native applications with AI integration**
+
+</div>
 
 ---
 
@@ -53,9 +78,11 @@ const dhia = {
 
 ---
 
-## 📊 **PERFORMANCE METRICS**
+## 📊 **LIVE PERFORMANCE DASHBOARD**
 
 <div align="center">
+
+### **🔥 DEVELOPMENT ACTIVITY**
   
 <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=cyberpunk&include_all_commits=true&count_private=true"/>
 <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&langs_count=8&theme=cyberpunk"/>
@@ -63,7 +90,24 @@ const dhia = {
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChaiebDhia&theme=cyberpunk" alt="GitHub Streak" />
+
+### **⚡ CODING STREAK**
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ChaiebDhia&theme=cyberpunk" alt="GitHub Streak" />
+
+</div>
+
+<div align="center">
+
+### **📈 CONTRIBUTION GRAPH**
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaiebDhia&theme=cyberpunk&hide_border=true&point=00F5FF&line=FF006E&color=00F5FF" alt="Activity Graph" />
+
+</div>
+
+<div align="center">
+
+### **🏆 GITHUB TROPHIES**
+<img src="https://github-profile-trophy.vercel.app/?username=ChaiebDhia&theme=cyberpunk&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
+
 </div>
 
 ---
