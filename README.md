@@ -84,9 +84,11 @@
 
 ---
 
-## 🎓 **EDUCATION & CERTIFICATIONS**
+## 🎓 **ACADEMIC JOURNEY**
 
 <div align="center">
+
+### **📚 EDUCATION**
 
 | 🎯 **Degree** | 🏫 **Institution** | 📅 **Period** |
 |:---:|:---:|:---:|
@@ -94,7 +96,11 @@
 | **Master's Degree** - Intelligent Web Applications | Higher Institute of Computer Science of Kef | 2023 - 2024 |
 | **Bachelor of Engineering** - Computer Science | Higher Institute of Computer Science of Kef | 2020 - 2023 |
 
-**🏅 Certifications:** Scrum Fundamentals Certified (SFC)
+### **🏅 CERTIFICATIONS**
+
+| 📜 **Certification** | 🏢 **Issuing Organization** | 📅 **Year** |
+|:---:|:---:|:---:|
+| **Scrum Fundamentals Certified (SFC)** | SCRUMstudy | 2024 |
 
 </div>
 
@@ -112,5 +118,25 @@
 *Let's build the future together - one commit at a time*
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60">
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- Cyberpunk Animated Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=&fontSize=16" width="100%"/>
+
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+
+<!-- Matrix Effect -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2000&pause=1000&color=00F5FF&center=true&vCenter=true&multiline=true&repeat=false&width=800&height=100&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━;%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20HACK%20THE%20MATRIX%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" />
+
+<!-- Cyberpunk Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=ChaiebDhia&style=for-the-badge&color=00f5ff&label=PROFILE+VIEWS" alt="Profile Views" />
+
+<!-- Glitch Effect GIF -->
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="100%" height="10"/>
 
 </div>
