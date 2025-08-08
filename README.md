@@ -59,8 +59,7 @@
 <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=cyberpunk&include_all_commits=true&count_private=true"/>
 <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&langs_count=8&theme=cyberpunk"/>
 
-### **⚡ CODING STREAK**
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ChaiebDhia&theme=cyberpunk" alt="GitHub Streak" />
+
 
 </div>
 
