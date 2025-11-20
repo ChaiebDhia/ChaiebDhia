@@ -57,7 +57,7 @@
 ### **🔥 DEVELOPMENT ACTIVITY**
   
 <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=cyberpunk&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&langs_count=8&theme=cyberpunk"/>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&langs_count=10&theme=cyberpunk&hide=html,css"/>
 
 </div>
 
@@ -69,18 +69,15 @@
 
 ### 🤖 **SkillSync AI Platform** - *Multi-Agent GenAI Architecture*
 **Tech Stack:** React • Node.js • Gemini API • AWS • NLP  
-🎯 Multi-agent system with real-time translation (10+ languages), AI chatbot & intelligent document analysis  
-[![View Project](https://img.shields.io/badge/View-Project-00C7B7?style=for-the-badge&logo=github)](https://github.com/ChaiebDhia)
+🎯 Multi-agent system with real-time translation (10+ languages), AI chatbot & intelligent document analysis
 
 ### 🔄 **18-Stage DevOps Pipeline** - *<2min Deployment*
 **Tech Stack:** Jenkins • Docker • Spring Boot • Kubernetes • Grafana  
-⚡ Fully automated CI/CD with 100% test coverage, zero-downtime deployments  
-[![View Project](https://img.shields.io/badge/View-Project-00C7B7?style=for-the-badge&logo=github)](https://github.com/ChaiebDhia)
+⚡ Fully automated CI/CD with 100% test coverage, zero-downtime deployments
 
-### ☁️ **Cloud-Native Microservices** - *Scalable Architecture*
+### ☁️ **Microservices Platform** - *Scalable Architecture*
 **Tech Stack:** Spring Boot • Docker • Kubernetes • PostgreSQL • RabbitMQ  
-🏗️ Event-driven microservices with container orchestration & high availability  
-[![View Project](https://img.shields.io/badge/View-Project-00C7B7?style=for-the-badge&logo=github)](https://github.com/ChaiebDhia)
+🏗️ Event-driven microservices with container orchestration & high availability
 
 </div>
 
@@ -118,52 +115,25 @@
 
 ### **🏅 CERTIFICATIONS & ACHIEVEMENTS**
 
-<table align="center">
-<tr>
-<th>☁️ Cloud & Infrastructure</th>
-<th>🤖 AI & Development</th>
-<th>📋 Methodologies</th>
-</tr>
-<tr>
-<td align="center">
+**☁️ Cloud & Infrastructure**
 
-**AWS Academy Graduate**<br>
-<sub>Cloud Foundations | 2025</sub><br>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" width="80"/>
+AWS Academy Graduate - *Cloud Foundations | 2025*
 
-**Aviatrix Certified Engineer**<br>
-<sub>Multi-Cloud Network | 2025</sub><br>
-<img src="https://img.shields.io/badge/Aviatrix-00C1D5?style=flat&logo=cloud&logoColor=white" width="80"/>
+Aviatrix Certified Engineer - *Multi-Cloud Network | 2025*
 
-**Oracle Cloud Infrastructure**<br>
-<sub>OCI Associate | 2025</sub><br>
-<img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" width="80"/>
+Oracle Cloud Infrastructure - *OCI Associate | 2025*
 
-</td>
-<td align="center">
+**🤖 AI & Development**
 
-**Hashgraph Developer**<br>
-<sub>Blockchain & DLT | 2025</sub><br>
-<img src="https://img.shields.io/badge/Hedera-5F5F5F?style=flat&logo=hedera&logoColor=white" width="80"/>
+Hashgraph Developer - *Blockchain & DLT | 2025*
 
-**AI/ML Practitioner**<br>
-<sub>TensorFlow & PyTorch</sub><br>
-<img src="https://img.shields.io/badge/AI%2FML-FF6F00?style=flat&logo=tensorflow&logoColor=white" width="80"/>
+AI/ML Practitioner - *TensorFlow & PyTorch*
 
-</td>
-<td align="center">
+**📋 Methodologies**
 
-**Scrum Fundamentals**<br>
-<sub>SFC Certified | 2024</sub><br>
-<img src="https://img.shields.io/badge/Scrum-009FDA?style=flat&logo=scrumalliance&logoColor=white" width="80"/>
+Scrum Fundamentals - *SFC Certified | 2024*
 
-**DevOps Practices**<br>
-<sub>CI/CD & Automation</sub><br>
-<img src="https://img.shields.io/badge/DevOps-0A66C2?style=flat&logo=azuredevops&logoColor=white" width="80"/>
-
-</td>
-</tr>
-</table>
+DevOps Practices - *CI/CD & Automation*
 
 <div align="center">
   
