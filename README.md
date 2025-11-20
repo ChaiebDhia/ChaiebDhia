@@ -59,7 +59,28 @@
 <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=cyberpunk&include_all_commits=true&count_private=true"/>
 <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&langs_count=8&theme=cyberpunk"/>
 
+</div>
 
+---
+
+## 💎 **FEATURED PROJECTS**
+
+<div align="center">
+
+### 🤖 **SkillSync AI Platform** - *Multi-Agent GenAI Architecture*
+**Tech Stack:** React • Node.js • Gemini API • AWS • NLP  
+🎯 Multi-agent system with real-time translation (10+ languages), AI chatbot & intelligent document analysis  
+[![View Project](https://img.shields.io/badge/View-Project-00C7B7?style=for-the-badge&logo=github)](https://github.com/ChaiebDhia)
+
+### 🔄 **18-Stage DevOps Pipeline** - *<2min Deployment*
+**Tech Stack:** Jenkins • Docker • Spring Boot • Kubernetes • Grafana  
+⚡ Fully automated CI/CD with 100% test coverage, zero-downtime deployments  
+[![View Project](https://img.shields.io/badge/View-Project-00C7B7?style=for-the-badge&logo=github)](https://github.com/ChaiebDhia)
+
+### ☁️ **Cloud-Native Microservices** - *Scalable Architecture*
+**Tech Stack:** Spring Boot • Docker • Kubernetes • PostgreSQL • RabbitMQ  
+🏗️ Event-driven microservices with container orchestration & high availability  
+[![View Project](https://img.shields.io/badge/View-Project-00C7B7?style=for-the-badge&logo=github)](https://github.com/ChaiebDhia)
 
 </div>
 
@@ -67,14 +88,14 @@
 
 ## 💼 **PROFESSIONAL EXPERIENCE**
 
-### 🏢 **Tunisie Telecom** *(July - Aug 2025)*
+### 🏢 **Tunisie Telecom** *(July - Aug 2024)*
 **Full-Stack Engineering Intern**
 - 📊 Analyzed 3+ key applications architecture
 - ⚡ Identified 10+ optimization opportunities
 - 🎨 Refined 3+ UI enhancements
 - 🚀 Prototyped 4 new portal features
 
-### 💻 **Bright Soft** *(July - Aug 2023)*
+### 💻 **Flight Soft** *(July - Aug 2023)*
 **Full-Stack Engineer**
 - ⚡ Improved load times by 15%
 - 🤖 Integrated AI/NLP features
@@ -95,11 +116,60 @@
 | **Master's Degree** - Intelligent Web Applications | Higher Institute of Computer Science of Kef | 2023 - 2024 |
 | **Bachelor of Engineering** - Computer Science | Higher Institute of Computer Science of Kef | 2020 - 2023 |
 
-### **🏅 CERTIFICATIONS**
+### **🏅 CERTIFICATIONS & ACHIEVEMENTS**
 
-| 📜 **Certification** | 🏢 **Issuing Organization** | 📅 **Year** |
-|:---:|:---:|:---:|
-| **Scrum Fundamentals Certified (SFC)** | SCRUMstudy | 2024 |
+<table align="center">
+<tr>
+<th>☁️ Cloud & Infrastructure</th>
+<th>🤖 AI & Development</th>
+<th>📋 Methodologies</th>
+</tr>
+<tr>
+<td align="center">
+
+**AWS Academy Graduate**<br>
+<sub>Cloud Foundations | 2025</sub><br>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" width="80"/>
+
+**Aviatrix Certified Engineer**<br>
+<sub>Multi-Cloud Network | 2025</sub><br>
+<img src="https://img.shields.io/badge/Aviatrix-00C1D5?style=flat&logo=cloud&logoColor=white" width="80"/>
+
+**Oracle Cloud Infrastructure**<br>
+<sub>OCI Associate | 2025</sub><br>
+<img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" width="80"/>
+
+</td>
+<td align="center">
+
+**Hashgraph Developer**<br>
+<sub>Blockchain & DLT | 2025</sub><br>
+<img src="https://img.shields.io/badge/Hedera-5F5F5F?style=flat&logo=hedera&logoColor=white" width="80"/>
+
+**AI/ML Practitioner**<br>
+<sub>TensorFlow & PyTorch</sub><br>
+<img src="https://img.shields.io/badge/AI%2FML-FF6F00?style=flat&logo=tensorflow&logoColor=white" width="80"/>
+
+</td>
+<td align="center">
+
+**Scrum Fundamentals**<br>
+<sub>SFC Certified | 2024</sub><br>
+<img src="https://img.shields.io/badge/Scrum-009FDA?style=flat&logo=scrumalliance&logoColor=white" width="80"/>
+
+**DevOps Practices**<br>
+<sub>CI/CD & Automation</sub><br>
+<img src="https://img.shields.io/badge/DevOps-0A66C2?style=flat&logo=azuredevops&logoColor=white" width="80"/>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+  
+### 🎯 **TRIPLE CLOUD CERTIFIED** | ⚡ **BLOCKCHAIN READY** | 🤖 **AI/ML ENABLED**
+
+</div>
 
 </div>
 
@@ -124,8 +194,6 @@
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 <br>
-<!-- Cyberpunk Animated Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=&fontSize=16" width="100%"/>
-
 
 </div>
