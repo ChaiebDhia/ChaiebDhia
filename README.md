@@ -123,17 +123,16 @@ Aviatrix Certified Engineer - *Multi-Cloud Network | 2025*
 
 Oracle Cloud Infrastructure - *OCI Associate | 2025*
 
+
 **🤖 AI & Development**
 
 Hashgraph Developer - *Blockchain & DLT | 2025*
 
-AI/ML Practitioner - *TensorFlow & PyTorch*
 
 **📋 Methodologies**
 
 Scrum Fundamentals - *SFC Certified | 2024*
 
-DevOps Practices - *CI/CD & Automation*
 
 <div align="center">
   
