@@ -10,7 +10,22 @@
 	<img src="https://img.shields.io/badge/Cloud-Docker_%7C_AWS-1F2937" alt="Cloud" />
 </p>
 
-I design and ship production AI software where deep learning models, retrieval systems, and full-stack applications work together in real-world workflows.
+I build production AI software where Agentic AI, RAG, Deep Learning, and Full-Stack engineering are delivered as one coherent product.
+
+Currently: AI Engineer Intern (PFE) at YEBNI, building DeepCoin-Core with end-to-end ownership from model training to production delivery.
+
+---
+
+## Impact Snapshot
+
+| Area | Current Evidence |
+|------|------------------|
+| Agentic AI | LangGraph 5-agent orchestration in production workflow |
+| Deep Learning | EfficientNet-B3 pipeline with 80.03% TTA benchmark |
+| RAG | 47,705-vector hybrid retrieval stack (BM25 + vector + RRF) |
+| Full-Stack Delivery | FastAPI backend + Next.js 15 frontend |
+| Quality | 122 automated tests passing |
+| Deployment | Dockerized multi-service architecture |
 
 ---
 
@@ -19,6 +34,13 @@ I design and ship production AI software where deep learning models, retrieval s
 - Building enterprise-grade AI products at the intersection of Agentic AI, RAG, Deep Learning, and Full-Stack Engineering.
 - Current flagship: DeepCoin-Core (YEBNI × ESPRIT PFE), an end-to-end platform for archaeological coin analysis from a single image.
 - Strong focus on production quality: security, observability, testing, deployment, and iterative model improvement.
+
+## What I Bring to a Team
+
+- End-to-end execution: from experimental AI pipelines to production-grade APIs and web interfaces.
+- Architecture clarity: strong decomposition of agent workflows, retrieval systems, and service boundaries.
+- Quality mindset: automated tests, security controls, reproducibility, and deployment readiness.
+- Product orientation: builds that are technically rigorous and actually usable by real users.
 
 ---
 
@@ -93,7 +115,7 @@ Key delivery outcomes:
 - Implemented agentic AI, RAG retrieval, and deep learning integration in one coherent system.
 - Delivered security hardening, test coverage, and deployment architecture for enterprise-grade reliability.
 
-### Full-Stack Engineering Intern — Tunisia Telecom
+### Network Automation Engineering Intern — Tunisia Telecom
 **Jul 2025 – Aug 2025**
 
 - Developed Python-based automation workflows for telecom/network operations.
@@ -173,19 +195,22 @@ CI/CD pipeline project focused on automation quality and deployment speed:
 
 ---
 
-## Career Objective
+## Open To
 
-I am targeting roles aligned with:
+AI Engineer, Applied AI Engineer, and Full-Stack AI Product Engineer roles focused on:
 
-**AI Engineer & Full-Stack Architect | Agentic AI (LangGraph/RAG) | Next.js 15 & FastAPI | AWS Track | Transforming Deep Learning into Production Software**
+- Agentic AI and RAG systems
+- Production ML and MLOps
+- End-to-end product ownership (backend + frontend + infra)
 
-I’m especially interested in teams building high-impact AI products with strong engineering culture, measurable outcomes, and real production ownership.
+I’m especially interested in teams building measurable, high-impact AI products with strong engineering standards.
 
 ---
 
 ## Contact
 
 - LinkedIn: https://linkedin.com/in/dhia-shayeb
+- GitHub: https://github.com/ChaiebDhia
 - Email: dhia.chaieb@esprit.tn
 - Portfolio: https://dhiashayeb.vercel.app
 
