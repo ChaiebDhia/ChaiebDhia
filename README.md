@@ -93,7 +93,7 @@ Key delivery outcomes:
 - Implemented agentic AI, RAG retrieval, and deep learning integration in one coherent system.
 - Delivered security hardening, test coverage, and deployment architecture for enterprise-grade reliability.
 
-### Network Automation Engineering Intern — Tunisia Telecom
+### Full-Stack Engineering Intern — Tunisia Telecom
 **Jul 2025 – Aug 2025**
 
 - Developed Python-based automation workflows for telecom/network operations.
@@ -186,7 +186,6 @@ I’m especially interested in teams building high-impact AI products with stron
 ## Contact
 
 - LinkedIn: https://linkedin.com/in/dhia-shayeb
-- GitHub: https://github.com/ChaiebDhia
 - Email: dhia.chaieb@esprit.tn
 - Portfolio: https://dhiashayeb.vercel.app
 
