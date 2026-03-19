@@ -1,168 +1,134 @@
-# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> DHIA SHAYEB <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+# Dhia Chaieb
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;AI%2FML+Solutions+Developer;DevOps+Enthusiast;Cloud+Architecture+Specialist" alt="Typing SVG" />
-</div>
+AI Engineer & Full-Stack Architect | Agentic AI (LangGraph/RAG) | Next.js 15 & FastAPI | AWS Certified | Transforming Deep Learning into Production Software
 
----
-
-## 🎯 **ABOUT ME**
-
-<div align="center">
-
-### 🌟 **INNOVATING AT THE INTERSECTION OF AI & CLOUD**
-
-| 🚀 CURRENT MISSION | 🎓 ACADEMIC PURSUIT | 💡 PASSION AREAS |
-|:---:|:---:|:---:|
-| **Full-Stack Engineering Intern**<br>@ Tunisie Telecom<br>*Optimizing enterprise applications* | **Engineering Student @ ESPRIT**<br>Web Technologies & Internet Systems<br>*Specializing in intelligent systems* | **AI/ML • Cloud Architecture**<br>DevOps Automation • Innovation<br>*Building tomorrow's solutions today* |
-
-### 📍 **Based in Tunis, Tunisia** | 🌟 **Building scalable cloud-native applications with AI integration**
-
-</div>
+I build production AI systems where Agentic AI, RAG, and Deep Learning are deployed end-to-end in real software products.
 
 ---
 
-## 🚀 **TECH ARSENAL**
+## Profile Summary
 
-<div align="center">
+I am an engineering student at ESPRIT and currently building enterprise-grade AI software with YEBNI (Tunisia), including DeepCoin-Core: a full-stack platform that classifies archaeological coins from a single photo using EfficientNet-B3, a hybrid RAG engine, and a multi-agent pipeline orchestrated with LangGraph.
 
-### **Languages & Frameworks**
-<p>
-  <img src="https://skillicons.dev/icons?i=javascript,typescript,python,java,dart,cpp,react,nextjs,nodejs,express,spring,flutter,graphql" />
-</p>
+My focus is not just model accuracy. I design complete systems with:
 
-### **Cloud & DevOps**
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,jenkins,terraform,linux,git,github" />
-</p>
-
-### **Databases & AI/ML**
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,firebase,tensorflow,pytorch" />
-</p>
-
-### **Tools & Design**
-<p>
-  <img src="https://skillicons.dev/icons?i=vscode,figma,postman,arduino,grafana" />
-</p>
-
-</div>
+- reliable backend architecture,
+- production-ready frontend UX,
+- security hardening,
+- observability and testing,
+- and continuous learning loops (MLflow + Active Learning).
 
 ---
 
-## 📊 **LIVE PERFORMANCE DASHBOARD**
+## Current Mission
 
-<div align="center">
+### DeepCoin-Core (YEBNI × ESPRIT PFE)
 
-### **🔥 DEVELOPMENT ACTIVITY**
-  
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=cyberpunk&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&langs_count=10&theme=cyberpunk&hide=html,css"/>
+Ancient coin recognition platform combining:
 
-</div>
+- Agentic AI orchestration (LangGraph, 5 specialized agents),
+- Hybrid RAG retrieval (BM25 + vector search + RRF ranking),
+- Deep Learning CNN inference (EfficientNet-B3),
+- Full-stack web application (Next.js 15 + FastAPI),
+- Explainability and MLOps (Grad-CAM++, MLflow, Active Learning).
 
----
+Selected delivery outcomes:
 
-## 💎 **FEATURED PROJECTS**
-
-<div align="center">
-
-### 🤖 **SkillSync AI Platform** - *Multi-Agent GenAI Architecture*
-**Tech Stack:** React • Node.js • Gemini API • AWS • NLP  
-🎯 Multi-agent system with real-time translation (10+ languages), AI chatbot & intelligent document analysis
-
-### 🔄 **18-Stage DevOps Pipeline** - *<2min Deployment*
-**Tech Stack:** Jenkins • Docker • Spring Boot • Kubernetes • Grafana  
-⚡ Fully automated CI/CD with 100% test coverage, zero-downtime deployments
-
-### ☁️ **Microservices Platform** - *Scalable Architecture*
-**Tech Stack:** Spring Boot • Docker • Kubernetes • PostgreSQL • RabbitMQ  
-🏗️ Event-driven microservices with container orchestration & high availability
-
-</div>
+- 80.03% TTA accuracy on a 438-class fine-grained archaeological benchmark,
+- 47,705-vector RAG index built from Corpus Nummorum metadata,
+- 122 automated tests passing,
+- end-to-end Docker architecture with multi-service deployment.
 
 ---
 
-## 💼 **PROFESSIONAL EXPERIENCE**
+## Core Expertise
 
-### 🏢 **Tunisie Telecom** *(July - Aug 2024)*
-**Full-Stack Engineering Intern**
-- 📊 Analyzed 3+ key applications architecture
-- ⚡ Identified 10+ optimization opportunities
-- 🎨 Refined 3+ UI enhancements
-- 🚀 Prototyped 4 new portal features
+### Agentic AI & LLM Systems
 
-### 💻 **Flight Soft** *(July - Aug 2023)*
-**Full-Stack Engineer**
-- ⚡ Improved load times by 15%
-- 🤖 Integrated AI/NLP features
-- 📉 Reduced manual data entry by 20%
-- 🏗️ Enhanced microservices architecture
+- LangGraph state-machine orchestration
+- Retrieval-Augmented Generation (RAG)
+- Prompt grounding and anti-hallucination design
+- Multi-agent fallback and graceful degradation
+- Vision + text agent pipelines
 
----
+### AI/ML Engineering
 
-## 🎓 **ACADEMIC JOURNEY**
+- PyTorch, EfficientNet, transfer learning
+- OpenCV preprocessing pipelines
+- Test-Time Augmentation (TTA)
+- Grad-CAM++ visual explainability
+- Active Learning data feedback loops
+- MLflow experiment tracking
 
-<div align="center">
+### Backend & Platform
 
-### **📚 EDUCATION**
+- FastAPI, async Python, Pydantic, SQLAlchemy
+- PostgreSQL, Redis, vector databases
+- AuthN/AuthZ, rate limiting, security-first APIs
+- API design for production reliability
 
-| 🎯 **Degree** | 🏫 **Institution** | 📅 **Period** |
-|:---:|:---:|:---:|
-| **Engineer's Degree** - Web Technologies & Internet Systems | ESPRIT | 2024 - 2026 |
-| **Master's Degree** - Intelligent Web Applications | Higher Institute of Computer Science of Kef | 2023 - 2024 |
-| **Bachelor of Engineering** - Computer Science | Higher Institute of Computer Science of Kef | 2020 - 2023 |
+### Full-Stack Product Engineering
 
-### **🏅 CERTIFICATIONS & ACHIEVEMENTS**
+- Next.js 15, TypeScript, Tailwind CSS
+- React architecture and high-signal UX
+- Admin dashboards and history/analytics interfaces
+- API integration and deployment-ready frontend patterns
 
-**☁️ Cloud & Infrastructure**
+### DevOps & Cloud
 
-AWS Academy Graduate - *Cloud Foundations | 2025*
-
-Aviatrix Certified Engineer - *Multi-Cloud Network | 2025*
-
-Oracle Cloud Infrastructure - *OCI Associate | 2025*
-
-
-**🤖 AI & Development**
-
-Hashgraph Developer - *Blockchain & DLT | 2025*
-
-
-**📋 Methodologies**
-
-Scrum Fundamentals - *SFC Certified | 2024*
-
-
-<div align="center">
-  
-### 🎯 **TRIPLE CLOUD CERTIFIED** | ⚡ **BLOCKCHAIN READY** | 🤖 **AI/ML ENABLED**
-
-</div>
-
-</div>
+- Docker and multi-service orchestration
+- CI/CD pipelines (GitHub Actions)
+- Observability mindset (metrics, health, logs)
+- AWS cloud foundations
 
 ---
 
-<div align="center">
+## Professional Experience
 
-### 🌐 **CONNECT WITH THE FUTURE**
+### AI Engineer Intern (PFE) — YEBNI, Tunisia
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-shayeb)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://dhiashayeb.vercel.app)
+- Built DeepCoin-Core: an end-to-end AI platform from data pipeline to production web application.
+- Implemented agent-based reasoning and hybrid retrieval over numismatic knowledge.
+- Delivered security, testing, and deployment hardening for enterprise-readiness.
 
-### **🚀 READY TO TRANSFORM YOUR NEXT PROJECT?**
-*Let's build the future together - one commit at a time*
+### Network & Automation Engineering Intern — Tunisia Telecom
 
-</div>
+- Automated operational workflows and monitoring tasks for telecom infrastructure.
+- Improved operational efficiency through Python-based tooling and dashboards.
 
 ---
 
-<div align="center">
+## Education
 
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-<br>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&text=&fontSize=16" width="100%"/>
+### ESPRIT School of Engineering (Tunisia)
 
-</div>
+- Engineering Degree, Information Technology
+- Period: 2021–2026
+- Expected graduation: Summer/Fall 2026
+
+---
+
+## Certifications
+
+- AWS Academy Graduate — Cloud Foundations
+- Aviatrix Certified Engineer (ACE)
+- Oracle Cloud Infrastructure (OCI)
+- Anthropic — Agent Skills (Certificate of Completion)
+
+---
+
+## Selected Repositories
+
+- DeepCoin-Core — Agentic AI + RAG + Deep Learning + Full-Stack production system
+- Additional platform and automation work available on my GitHub profile
+
+---
+
+## Contact
+
+- LinkedIn: https://linkedin.com/in/dhia-shayeb
+- GitHub: https://github.com/ChaiebDhia
+- Email: dhia.chaieb@esprit.tn
+- Portfolio: https://dhiashayeb.vercel.app
+
+I am open to AI Engineering and Full-Stack Architecture opportunities where advanced AI is translated into real, secure, and scalable software.
