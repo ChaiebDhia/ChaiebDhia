@@ -12,7 +12,7 @@
 
 I build production AI software where Agentic AI, RAG, Deep Learning, and Full-Stack engineering are delivered as one coherent product.
 
-Currently: AI Engineer Intern (PFE) at YEBNI, building DeepCoin-Core with end-to-end ownership from model training to production delivery.
+Currently: AI Engineer Intern (PFE) | ESPRIT & YEBNI — building DeepCoin-Core with end-to-end ownership from model training to production delivery.
 
 ---
 
