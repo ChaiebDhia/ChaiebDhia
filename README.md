@@ -65,6 +65,17 @@ Key delivery outcomes:
 
 ---
 
+## Technical Range
+
+| Project | Domain | Tech Stack | Scale Evidence |
+|---------|--------|-----------|-----------------|
+| **DeepCoin-Core** | Agentic AI + Deep Learning | PyTorch, LangGraph, FastAPI, Next.js 15, PostgreSQL, Docker | 7,677 images, 438 classes, 122 tests, 80.03% accuracy |
+| **EasyTrip Microservices** | Distributed Systems | Spring Cloud, Angular, MySQL, Docker, Service Discovery | Multi-service architecture, API gateway, 6+ microservices |
+| **SkillBridge** | Full-Stack AI Product | React, Node.js, MongoDB, Gemini API, Socket.io | Real-time collaboration, AI-powered features, 3-tier architecture |
+| **Network Automation** | DevOps & Observability | Python, APIs, Monitoring Dashboards, Automation Scripts | Production telecom infrastructure, operational automation |
+
+---
+
 ## Core Skills
 
 ### Agentic AI & LLM Engineering
@@ -115,8 +126,8 @@ Key delivery outcomes:
 - Implemented agentic AI, RAG retrieval, and deep learning integration in one coherent system.
 - Delivered security hardening, test coverage, and deployment architecture for enterprise-grade reliability.
 
-### Network Automation Engineering Intern — Tunisia Telecom
-**Jul 2025 – Aug 2025**
+### Full-Stack Engineering Intern — Tunisia Telecom
+**Jun 2025 – Aug 2025**
 
 - Developed Python-based automation workflows for telecom/network operations.
 - Built monitoring dashboards and API-driven automation for operational KPIs.
@@ -131,46 +142,11 @@ Key delivery outcomes:
 
 ---
 
-## Selected Projects
+## Featured Repositories
 
-### DeepCoin-Core (Production AI System)
-
-End-to-end AI platform for archaeological coin classification and analysis:
-
-- CNN + Agentic AI + Hybrid RAG + Full-stack delivery
-- FastAPI backend, Next.js frontend, MLflow tracking, explainability, and active learning
-
-Repo: https://github.com/ChaiebDhia/DeepCoin-Core
-
-### EasyTrip — Microservices-Based Travel Management Platform
-
-Spring Boot microservices platform with service discovery and API gateway:
-
-- Spring Cloud (Eureka, Gateway, Config)
-- Angular frontend
-- MySQL/H2 data services
-- Feign for inter-service communication
-- Dockerized services
-
-Repo: https://github.com/ChaiebDhia/Microservices
-
-### SkillBridge — AI-Augmented Skill Exchange Platform
-
-MERN-based collaborative learning and skill exchange platform with Gemini-powered features:
-
-- React + Redux frontend, Node.js/Express backend, MongoDB
-- AI assistant features (chat/support/summarization workflows)
-- Real-time collaboration tools (Socket.io/WebRTC patterns)
-
-Repo: https://github.com/InnovativeSquad-PI-4TWIN4/PiWebInovativeSquad
-
-### DevOps Pipeline for Spring Boot
-
-CI/CD pipeline project focused on automation quality and deployment speed:
-
-- Multi-stage pipeline design (build, test, quality checks, delivery)
-- Dockerized delivery workflow
-- Reliability and repeatability emphasis
+- **[DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core)** — Agentic AI + RAG + Deep Learning for archaeological coin analysis (production-ready)
+- **[EasyTrip Microservices](https://github.com/ChaiebDhia/Microservices)** — Spring Cloud distributed system with service discovery and API gateway
+- **[SkillBridge](https://github.com/InnovativeSquad-PI-4TWIN4/PiWebInovativeSquad)** — MERN platform with real-time collaboration and Gemini AI integration
 
 ---
 
