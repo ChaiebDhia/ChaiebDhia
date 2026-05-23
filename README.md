@@ -1,194 +1,97 @@
-# Dhia Chaieb
+# Dhia Shayeb — AI Engineer
 
-### AI Engineer & Full-Stack Architect | Agentic AI (LangGraph/RAG) | Next.js 15 + FastAPI | MLOps & Production Systems
+**Agentic AI · Hybrid RAG · Full-Stack · MLOps**
 
-<p>
-	<img src="https://img.shields.io/badge/Focus-Agentic_AI_%26_RAG-0A66C2" alt="Agentic AI" />
-	<img src="https://img.shields.io/badge/Deep_Learning-PyTorch-E34F26" alt="PyTorch" />
-	<img src="https://img.shields.io/badge/Backend-FastAPI-009688" alt="FastAPI" />
-	<img src="https://img.shields.io/badge/Frontend-Next.js_15-000000" alt="Next.js" />
-	<img src="https://img.shields.io/badge/Cloud-Docker_%7C_AWS-1F2937" alt="Cloud" />
-</p>
-
-I build production AI software where Agentic AI, RAG, Deep Learning, and Full-Stack engineering are delivered as one coherent product.
-
-Currently: AI Engineer Intern (PFE) | ESPRIT & YEBNI — building DeepCoin-Core with end-to-end ownership from model training to production delivery.
+I build AI systems that ship to production. Currently finishing my engineering degree at ESPRIT (Jul 2026) while delivering **DeepCoin-Core** at YEBNI — a complete AI platform built solo, from model training to production hardening.
 
 ---
 
-## Impact Snapshot
+## What I'm building right now
 
-| Area | Current Evidence |
-|------|------------------|
-| Agentic AI | LangGraph 5-agent orchestration in production workflow |
-| Deep Learning | EfficientNet-B3 pipeline with 80.03% TTA benchmark |
-| RAG | 47,705-vector hybrid retrieval stack (BM25 + vector + RRF) |
-| Full-Stack Delivery | FastAPI backend + Next.js 15 frontend |
-| Quality | 122 automated tests passing |
-| Deployment | Dockerized multi-service architecture |
+### [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core) — Agentic AI + RAG + Computer Vision
 
----
+An end-to-end platform that classifies 2,300-year-old coins from a single photograph in under 20 seconds.
 
-## Executive Profile
+| Metric | Result |
+|--------|--------|
+| CNN accuracy (EfficientNet-B3, TTA x8, 438 classes) | **80.03%** |
+| Knowledge base coverage | **9,541 types — 47,705 vectors** |
+| Hallucination on structured facts | **Zero** (citation-block grounding) |
+| Test suite | **122 / 122 passing** |
+| Services in Docker stack | **7** (FastAPI, Next.js 15, PostgreSQL, Redis, Nginx, MLflow, LocalStack) |
+| End-to-end pipeline latency | **< 20 s** |
 
-- Building enterprise-grade AI products at the intersection of Agentic AI, RAG, Deep Learning, and Full-Stack Engineering.
-- Current flagship: DeepCoin-Core (YEBNI × ESPRIT PFE), an end-to-end platform for archaeological coin analysis from a single image.
-- Strong focus on production quality: security, observability, testing, deployment, and iterative model improvement.
+**How the system works:**
 
-## What I Bring to a Team
+A single coin photograph goes in. A 5-agent LangGraph state machine routes by CNN confidence:
+- **> 85%** — Historian agent: hybrid RAG (BM25 + ChromaDB + RRF) generates a grounded historical report
+- **40–85%** — Validator agent: multi-scale HSV metal detection + KB consensus override
+- **< 40%** — Investigator agent: VLM + OpenCV finds the 3 closest cultural matches from 9,541 types
 
-- End-to-end execution: from experimental AI pipelines to production-grade APIs and web interfaces.
-- Architecture clarity: strong decomposition of agent workflows, retrieval systems, and service boundaries.
-- Quality mindset: automated tests, security controls, reproducibility, and deployment readiness.
-- Product orientation: builds that are technically rigorous and actually usable by real users.
+The system never returns an empty report. Graceful degradation over silent failure, every time.
 
----
+**One research finding from this build:** The same trained model scored 80% on standard composite photographs but dropped to 15–28% on BNF 1966 catalog scans of identical coin types. Same model, same classes, different photographic era — an intra-dataset distribution shift not previously documented in numismatic ML literature.
 
-## Current Flagship Project
-
-### DeepCoin-Core — AI Engineer Intern (PFE) at YEBNI (Feb 2026 – Jul 2026)
-
-Ancient coin recognition platform combining:
-
-- Agentic orchestration with LangGraph (5 specialized agents)
-- Hybrid RAG (BM25 + vector retrieval + RRF ranking)
-- CNN inference (EfficientNet-B3)
-- Full-stack architecture (FastAPI + Next.js 15)
-- Explainability and MLOps (Grad-CAM++, MLflow, Active Learning)
-
-Key delivery outcomes:
-
-- 80.03% TTA accuracy on a 438-class archaeological benchmark
-- 47,705-vector RAG index built from Corpus Nummorum metadata
-- 122 automated tests passing (unit + integration)
-- Dockerized multi-service deployment for reproducible execution
+```
+Stack: PyTorch · LangGraph · FastAPI · Next.js 15 · ChromaDB · PostgreSQL
+       Redis · MLflow · Docker · Prometheus · Grafana · GitHub Actions
+```
 
 ---
 
-## Technical Range
+## All projects
 
-| Project | Domain | Tech Stack | Scale Evidence |
-|---------|--------|-----------|-----------------|
-| **DeepCoin-Core** | Agentic AI + Deep Learning | PyTorch, LangGraph, FastAPI, Next.js 15, PostgreSQL, Docker | 7,677 images, 438 classes, 122 tests, 80.03% accuracy |
-| **EasyTrip Microservices** | Distributed Systems | Spring Cloud, Angular, MySQL, Docker, Service Discovery | Multi-service architecture, API gateway, 6+ microservices |
-| **SkillBridge** | Full-Stack AI Product | React, Node.js, MongoDB, Gemini API, Socket.io | Real-time collaboration, AI-powered features, 3-tier architecture |
-| **Network Automation** | DevOps & Observability | Python, APIs, Monitoring Dashboards, Automation Scripts | Production telecom infrastructure, operational automation |
-| **DevOps SpringBoot Pipeline** | CI/CD & Infrastructure | Jenkins (18 stages), Docker, SonarQube, Grafana, Prometheus, Nexus | 100% test coverage, <2 min runtime, 99.98% success rate, zero-downtime deployments |
-
----
-
-## Core Skills
-
-### Agentic AI & LLM Engineering
-
-- LangGraph orchestration and multi-agent workflows
-- Retrieval-Augmented Generation (RAG)
-- Prompt grounding and hallucination-risk mitigation
-- Vision + text AI pipelines
-- Fallback strategies and graceful degradation
-
-### AI / ML Engineering
-
-- PyTorch, transfer learning, EfficientNet
-- OpenCV image preprocessing and feature extraction
-- Test-Time Augmentation (TTA)
-- Grad-CAM++ explainability
-- Active Learning feedback loops
-- MLflow experiment tracking
-
-### Backend & Data
-
-- FastAPI, async Python, Pydantic, SQLAlchemy
-- REST API design, auth and access control
-- PostgreSQL, MySQL, MongoDB, Redis
-- Vector databases and metadata indexing
-
-### Frontend & Product Engineering
-
-- Next.js 15, React, TypeScript, Tailwind CSS
-- State management, API integration, and production UX
-- Dashboard, admin, analytics, and workflow interfaces
-
-### DevOps & Cloud
-
-- Docker and service orchestration
-- CI/CD pipelines (GitHub Actions, Jenkins)
-- Monitoring stack mindset (Prometheus/Grafana patterns)
-- AWS Academy Cloud Foundations
+| Project | What it does | Key result |
+|---------|-------------|------------|
+| [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core) | Agentic AI + RAG + CV for archaeological coin classification | 80.03% accuracy, 47k vectors, 122 tests |
+| [DevOps_SpringBoot](https://github.com/ChaiebDhia/DevOps_SpringBoot) | 18-stage Jenkins CI/CD pipeline | 99.98% deployment success, <2 min runtime |
+| [Microservices](https://github.com/ChaiebDhia/Microservices) | Spring Cloud travel platform | 6 services, Eureka discovery, API gateway |
+| [SkillBridge](https://github.com/InnovativeSquad-PI-4TWIN4/PiWebInovativeSquad) | AI-powered MERN skill exchange platform (team of 5) | Gemini AI, WebRTC, Socket.io, real-time P2P |
 
 ---
 
-## Professional Experience
+## Stack
 
-### AI Engineer Intern (PFE) — YEBNI, Tunisia
-**Feb 2026 – Jul 2026**
+**AI & LLMs**
+`LangGraph` `PyTorch` `EfficientNet` `ChromaDB` `BM25` `RRF` `MLflow` `Gemini API` `Ollama` `OpenCV` `Grad-CAM++`
 
-- Built DeepCoin-Core from data pipeline to production-ready web platform.
-- Implemented agentic AI, RAG retrieval, and deep learning integration in one coherent system.
-- Delivered security hardening, test coverage, and deployment architecture for enterprise-grade reliability.
+**Backend**
+`FastAPI` `Pydantic v2` `PostgreSQL` `Redis` `MongoDB` `JWT` `SQLAlchemy`
 
-### Full-Stack Engineering Intern — Tunisia Telecom
-**Jun 2025 – Aug 2025**
+**Frontend**
+`Next.js 15` `React` `TypeScript` `Tailwind CSS` `Node.js` `Socket.io` `WebRTC`
 
-- Developed Python-based automation workflows for telecom/network operations.
-- Built monitoring dashboards and API-driven automation for operational KPIs.
-- Improved reliability and reduced manual configuration effort through automation scripts.
-
-### Full-Stack Intern — Bright Soft, Tunisia
-**Jul 2023 – Aug 2023**
-
-- Developed full-stack features for a SaaS platform (React + Node.js).
-- Contributed to AI/NLP-assisted document-processing workflows.
-- Improved performance and supported quality through unit testing practices.
+**DevOps & Cloud**
+`Docker Compose` `GitHub Actions` `Jenkins` `Prometheus` `Grafana` `Nginx` `SonarQube` `AWS` `Oracle OCI`
 
 ---
 
-## Featured Repositories
+## Experience
 
-- **[DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core)** — Agentic AI + RAG + Deep Learning for archaeological coin analysis (production-ready)
-- **[DevOps SpringBoot Pipeline](https://github.com/ChaiebDhia/DevOps_SpringBoot)** — 18-stage Jenkins CI/CD with 100% test coverage, SonarQube gates, Grafana/Prometheus monitoring, zero-downtime deployments
-- **[EasyTrip Microservices](https://github.com/ChaiebDhia/Microservices)** — Spring Cloud distributed system with service discovery and API gateway
-- **[SkillBridge](https://github.com/InnovativeSquad-PI-4TWIN4/PiWebInovativeSquad)** — MERN platform with real-time collaboration and Gemini AI integration
+**AI Engineer — PFE (Graduation Project)** | YEBNI, Tunisia | Feb 2026 – Jul 2026
+> Sole architect of DeepCoin-Core. End-to-end ownership: model training, agent orchestration, RAG pipeline, full-stack delivery, security hardening, CI/CD.
 
----
+**Full-Stack Engineering Intern** | Tunisia Telecom | Jun 2025 – Aug 2025
+> Python automation for FTTH/5G infrastructure (14M+ subscribers). Netmiko scripting across Cisco/Huawei equipment — 80% reduction in manual configuration time. Streamlit + Plotly KPI dashboard.
 
-## Education
-
-### ESPRIT School of Engineering — Tunisia
-
-- Engineering Degree, Information Technology
-- Period: 2021–2026
-- Expected graduation: Summer/Fall 2026
+**Full-Stack Intern** | Bright Soft | Jul 2022 – Aug 2022
+> React/Node.js SaaS features, AI/NLP document processing workflows.
 
 ---
 
-## Certifications
+## Education & Certifications
 
-- AWS Academy Graduate — Cloud Foundations (2025)
-- Aviatrix Certified Engineer (ACE) — Multi-Cloud Network Associate (2025)
-- Oracle Cloud Infrastructure (OCI) Associate (2025)
-- Anthropic — Agent Skills (Certificate of Completion)
-- Hashgraph Developer Course (2025)
-- Scrum Fundamentals Certified (SFC)
+**ESPRIT, Tunis** — Engineering Degree, Intelligent Software Engineering (EUR-ACE accredited, BAC+5) | 2023–2026
 
----
+**ISIK, Le Kef** — BSc Computer Science | 2020–2023
 
-## Open To
-
-AI Engineer, Applied AI Engineer, and Full-Stack AI Product Engineer roles focused on:
-
-- Agentic AI and RAG systems
-- Production ML and MLOps
-- End-to-end product ownership (backend + frontend + infra)
-
-I’m especially interested in teams building measurable, high-impact AI products with strong engineering standards.
+Certifications: `Anthropic Agent Skills` `Aviatrix ACE` `Oracle OCI Associate` `AWS Cloud Foundations` `Scrum SFC`
 
 ---
 
-## Contact
+## Open to work
 
-- LinkedIn: https://linkedin.com/in/dhia-shayeb
-- GitHub: https://github.com/ChaiebDhia
-- Email: dhia.chaieb@esprit.tn
-- Portfolio: https://dhiashayeb.vercel.app
+Looking for **AI Engineer** and **Full-Stack AI** roles in Tunisia, France, or remotely — available July 2026.
 
+**Contact:**
+[LinkedIn](https://linkedin.com/in/dhia-shayeb) · [Portfolio](https://dhiashayeb.vercel.app) · dhiashayeb6@gmail.com
