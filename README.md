@@ -140,7 +140,7 @@ End-to-end agentic AI platform for archaeological numismatics. Classifies 2,300-
 | LLM grounding | `[CONTEXT N]` citation blocks | LLM writes prose; KB provides facts  structurally prevents hallucination |
 | Security | `hmac.compare_digest` on API keys | Constant-time comparison prevents timing-oracle attacks |
 | Thread safety | Double-checked locking on all singletons | Prevents OOM races on RAGEngine + LLM client cold startup |
-| Deployment architecture | Modular monolith + Docker service mesh | FastAPI/agents run as a single process (correct for a 1-person team); infrastructure concerns (DB, cache, observability, storage, reverse proxy) are fully decoupled into 8 independent Docker services — postgres · redis · nginx · mlflow · localstack · grafana · prometheus · alertmanager |
+| Deployment architecture | Modular monolith + Docker service mesh | FastAPI/agents run as a single process (correct for a 1-person team); infrastructure concerns (DB, cache, observability, storage, reverse proxy) are fully decoupled into 8 independent Docker services: postgres · redis · nginx · mlflow · localstack · grafana · prometheus · alertmanager |
 ### Research Finding
 
 The same trained model scored **80% on modern composite photographs** but only **15–28% on BNF 1966 catalog scans** of identical coin types  same model, same classes, different photographic era. This is an **intra-dataset distribution shift** not previously documented in numismatic ML literature. Documented in `ENGINEERING_JOURNAL.md §184`. Directly relevant to any institution digitising from analog historical catalogs.
