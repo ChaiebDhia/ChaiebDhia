@@ -216,6 +216,6 @@ React/Node.js SaaS feature development and AI/NLP document processing workflows.
 
 ## Open to Work
 
-Open to **AI Engineer** and **Full-Stack AI** roles globally — remote or relocation. Available **July 2026**.
+Open to **AI Engineer** and **Full-Stack AI** roles globally, remote or relocation. Available **July 2026**.
 
 [LinkedIn](https://linkedin.com/in/dhia-shayeb) · [Portfolio](https://dhiashayeb.vercel.app) · [dhiashayeb6@gmail.com](mailto:dhiashayeb6@gmail.com)
