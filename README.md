@@ -1,22 +1,25 @@
 <div align="center">
 
-<h1>Dhia Shayeb</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e40af&height=200&section=header&text=Dhia%20Shayeb&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20Agentic%20Systems%20%C2%B7%20Hybrid%20RAG%20%C2%B7%20MLOps%20%C2%B7%20Full-Stack&descAlignY=58&descSize=18&descColor=93c5fd" width="100%"/>
 
-<p><strong>AI Engineer · Agentic Systems · Hybrid RAG · Computer Vision · MLOps · Full-Stack</strong></p>
+<br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-dhiashayeb.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white)](https://dhiashayeb.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--shayeb-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-shayeb)
-[![Email](https://img.shields.io/badge/Email-dhiashayeb6@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
-[![Status](https://img.shields.io/badge/Available-July%202026-22c55e?style=flat-square)](mailto:dhiashayeb6@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Tunis%2C%20Tunisia-6B7280?style=flat-square)](https://linkedin.com/in/dhia-shayeb)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Building+AI+systems+that+ship+to+production.;LangGraph+%C2%B7+Hybrid+RAG+%C2%B7+MLOps+%C2%B7+Full-Stack;47k-vector+RAG+%C2%B7+92%25+cost+reduction+%C2%B7+80.03%25+CV;Open+to+relocation+%E2%80%94+UAE+%C2%B7+France+%C2%B7+Germany+%C2%B7+Remote)](https://git.io/typing-svg)
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-dhiashayeb.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiashayeb.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--shayeb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-shayeb)
+[![Email](https://img.shields.io/badge/Email-dhiashayeb6@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
+[![Available](https://img.shields.io/badge/Open%20to%20Work-July%202026-22c55e?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
 
 </div>
 
 ---
 
-I build AI systems that ship to production. Not demos  platforms. I own the full stack: data pipelines, model training, multi-agent orchestration, hybrid RAG, secure API design, and MLOps delivery.
+I build AI systems that ship to production. Not demos — platforms.
 
-Currently finishing an Engineering degree in Intelligent Software Engineering at ESPRIT (July 2026) while serving as **sole architect** of DeepCoin-Core at YEBNI: a 5-agent LangGraph platform with 47,705-vector hybrid retrieval, EfficientNet-B3 at 80.03% TTA accuracy across 438 classes, and **zero hallucination on structured facts**  delivered solo on a 7-service Docker stack with 122 automated tests and a documented novel ML research finding.
+I own the full stack: data pipelines, model training, multi-agent orchestration, hybrid RAG, secure API design, and MLOps delivery. Currently finishing an Engineering degree in Intelligent Software Engineering at ESPRIT (EUR-ACE, July 2026) while serving as **sole architect** of DeepCoin-Core at YEBNI — a 5-agent LangGraph platform with 47,705-vector hybrid retrieval, EfficientNet-B3 at 80.03% TTA accuracy across 438 classes, and **zero hallucination on structured facts** — delivered solo on a 7-service Docker stack with 122 automated tests and a documented novel ML research finding.
 
 ---
 
@@ -24,128 +27,102 @@ Currently finishing an Engineering degree in Intelligent Software Engineering at
 
 > **A single coin photograph in. A grounded, cited historical report out. In under 20 seconds.**
 
-End-to-end agentic AI platform for archaeological numismatics. Classifies 2,300-year-old coins via CNN, validates with computer vision forensics, and generates hallucination-free historical reports using citation-constrained RAG  all through a 5-agent LangGraph state machine with graceful degradation on every path.
+End-to-end agentic AI platform for archaeological numismatics. Classifies 2,300-year-old coins via CNN, validates with computer vision forensics, and generates hallucination-free historical reports using citation-constrained RAG — all through a 5-agent LangGraph state machine with graceful degradation on every path.
 
 ### System Architecture
 
 ```
- ┌──────────────────────────────────────────────────────────────┐
- │                    RAW COIN PHOTOGRAPH                       │
- └──────────────────────────────┬───────────────────────────────┘
-                                │
- ┌──────────────────────────────▼───────────────────────────────┐
- │                  Image Preprocessing                         │
- │   HoughCircles autocrop · CLAHE on LAB L-channel             │
- │   Aspect-preserving resize → zero-pad 299×299                │
- └──────────────────────────────┬───────────────────────────────┘
-                                │
- ┌──────────────────────────────▼───────────────────────────────┐
- │               EfficientNet-B3  (80.03% TTA ×8)               │
- │   438 classes · ~12M params · 1,536-dim feature vector       │
- │   Output: class · confidence · top-5 · Grad-CAM++ 19×19     │
- └──────────┬──────────────────┬──────────────────┬────────────┘
-            │                  │                  │
-        conf > 85%         40 – 85%           conf < 40%
-            │                  │                  │
- ┌──────────▼──────┐  ┌────────▼────────┐  ┌─────▼──────────────┐
- │   HISTORIAN     │  │   VALIDATOR     │  │   INVESTIGATOR     │
- │                 │  │                 │  │                    │
- │ Hybrid RAG      │  │ Multi-scale HSV │  │ Vision LLM         │
- │ BM25 + ChromaDB │  │ 3 crop sizes    │  │ (qwen3-vl:4b)      │
- │ RRF fusion      │  │ 40/60/80%       │  │ + OpenCV fallback  │
- │ [CONTEXT N]     │  │ Ag2S patina fix │  │ KB nearest-neigh.  │
- │ citation prompt │  │ KB consensus    │  │ 9,541-type search  │
- │ → LLM narrative │  │ override        │  │ → cultural matches │
- └──────────┬──────┘  └────────┬────────┘  └─────┬──────────────┘
-            └──────────────────┴──────────────────┘
-                                │
- ┌──────────────────────────────▼───────────────────────────────┐
- │                    SYNTHESIS AGENT                           │
- │   fpdf2 PDF · Grad-CAM++ heatmap embed · confidence pill     │
- │   Greek legend transliteration · grounded citations         │
- └──────────────────────────────┬───────────────────────────────┘
-                                │
- ┌──────────────────────────────▼───────────────────────────────┐
- │              FastAPI Backend  (:8000)                        │
- │   JWT · X-API-Key · slowapi · HSTS · CSP · GZip             │
- │   SQLite WAL · X-Request-ID · Pydantic v2 · SSE streaming   │
- └──────────────────────────────┬───────────────────────────────┘
-                                │
- ┌──────────────────────────────▼───────────────────────────────┐
- │             Next.js 15 Frontend  (:3000)                     │
- │   9 pages · Framer Motion · TanStack Query · Zustand         │
- │   3-state CNN display · streaming chat · admin panel        │
- └──────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│                    RAW COIN PHOTOGRAPH                       │
+└──────────────────────────────┬───────────────────────────────┘
+                               │
+┌──────────────────────────────▼───────────────────────────────┐
+│                  Image Preprocessing                         │
+│   HoughCircles autocrop · CLAHE on LAB L-channel             │
+│   Aspect-preserving resize → zero-pad 299×299                │
+└──────────────────────────────┬───────────────────────────────┘
+                               │
+┌──────────────────────────────▼───────────────────────────────┐
+│               EfficientNet-B3  (80.03% TTA ×8)               │
+│   438 classes · ~12M params · 1,536-dim feature vector       │
+│   Output: class · confidence · top-5 · Grad-CAM++ 19×19     │
+└──────────┬──────────────────┬──────────────────┬────────────┘
+           │                  │                  │
+       conf > 85%         40 – 85%          conf < 40%
+           │                  │                  │
+┌──────────▼──────┐  ┌────────▼────────┐  ┌─────▼──────────────┐
+│   HISTORIAN     │  │   VALIDATOR     │  │   INVESTIGATOR     │
+│ Hybrid RAG      │  │ Multi-scale HSV │  │ Vision LLM         │
+│ BM25 + ChromaDB │  │ 3 crop sizes    │  │ (qwen3-vl:4b)      │
+│ RRF fusion      │  │ Ag2S patina fix │  │ KB nearest-neigh.  │
+│ citation prompt │  │ KB consensus    │  │ 9,541-type search  │
+│ → LLM narrative │  │ override        │  │ → cultural matches │
+└──────────┬──────┘  └────────┬────────┘  └─────┬──────────────┘
+           └─────────────────┬┘──────────────────┘
+                             │
+┌────────────────────────────▼─────────────────────────────────┐
+│                    SYNTHESIS AGENT                           │
+│   fpdf2 PDF · Grad-CAM++ heatmap embed · grounded citations │
+└────────────────────────────┬─────────────────────────────────┘
+                             │
+┌────────────────────────────▼─────────────────────────────────┐
+│   FastAPI :8000  ·  JWT · HSTS · CSP · slowapi · SSE        │
+└────────────────────────────┬─────────────────────────────────┘
+                             │
+┌────────────────────────────▼─────────────────────────────────┐
+│   Next.js 15 :3000  ·  9 pages · Framer Motion · Zustand    │
+└──────────────────────────────────────────────────────────────┘
 
- ──────────────────────────────────────────────────────────────
- HYBRID RAG ENGINE
- ──────────────────────────────────────────────────────────────
-   Query ──┬── BM25Okapi keyword index  (rank-bm25)
-           └── ChromaDB cosine search  (384-dim, all-MiniLM-L6-v2)
-                          │
-           RRF fusion:  score = Σ 1 / (60 + rank_r)
-                          │
-           Top-k → 5 × [CONTEXT N] citation blocks
-           Source: Corpus Nummorum (DFG-funded, Berlin-Brandenburg Academy)
-           Coverage: 9,541 types · 47,705 vectors · 5 semantic chunks/type
- ──────────────────────────────────────────────────────────────
+HYBRID RAG ENGINE
+  BM25Okapi keyword index  +  ChromaDB cosine search (384-dim)
+  RRF fusion: score = Σ 1/(60 + rank_r)
+  → 5 × [CONTEXT N] citation blocks · 47,705 vectors · < 1ms
 
- ──────────────────────────────────────────────────────────────
- LLM PROVIDER FALLBACK CHAIN
- ──────────────────────────────────────────────────────────────
-   Priority 1: GITHUB_TOKEN   → GitHub Models API (Gemini 2.5 Flash)
-   Priority 2: GOOGLE_API_KEY → Google AI Studio  (1,500 req/day free)
-   Priority 3: OLLAMA_HOST    → Local Ollama       (gemma3:4b / qwen3-vl:4b)
-   Priority 4: no keys set    → Structured KB fallback (zero crash, zero hallucination)
- ──────────────────────────────────────────────────────────────
+LLM FALLBACK CHAIN
+  1. GitHub Models API (Gemini 2.5 Flash)
+  2. Google AI Studio (1,500 req/day free)
+  3. Local Ollama (gemma3:4b / qwen3-vl:4b)
+  4. Structured KB fallback — zero crash, zero hallucination
 
- ──────────────────────────────────────────────────────────────
- GRACEFUL DEGRADATION  THE SYSTEM NEVER RETURNS AN EMPTY REPORT
- ──────────────────────────────────────────────────────────────
-   Level 1 (conf > 85%):  CNN → Historian → RAG → LLM narrative → full PDF
-   Level 2 (40–85%):      CNN hesitates → Validator OpenCV → KB consensus → PDF
-   Level 3 (< 40%):       OOD input → Investigator → 3 nearest KB types → PDF
-   LLM offline:           KB fields only → structured report, no prose hallucination
- ──────────────────────────────────────────────────────────────
+GRACEFUL DEGRADATION — SYSTEM NEVER RETURNS AN EMPTY REPORT
+  conf > 85% → CNN → RAG → LLM narrative → full PDF
+  40–85%     → CNN → OpenCV validator → KB consensus → PDF
+  < 40%      → Investigator → 3 nearest KB types → PDF
+  LLM offline → KB fields only → structured report, no hallucination
 ```
 
 ### Metrics
 
 | Metric | Result |
 |--------|--------|
-| CNN accuracy  TTA ×8, 438-class fine-grained classification | **80.03%** |
-| Macro F1  438 classes | **0.7763** |
-| Knowledge base coverage | **9,541 types · 47,705 vectors** (98.2% of Corpus Nummorum) |
-| Hallucination on structured facts | **Zero**  citation-block grounding, all tested queries |
-| Test suite | **122 / 122 passing** (unit + integration, pytest-asyncio) |
-| Docker services | **7**  FastAPI · Next.js 15 · PostgreSQL · Redis · Nginx · MLflow · LocalStack |
-| End-to-end pipeline latency | **< 20 s** |
-| KB hybrid search latency | **< 1 ms** |
+| CNN accuracy — TTA ×8, 438-class | **80.03%** |
+| Macro F1 — 438 classes | **0.7763** |
+| Knowledge base | **9,541 types · 47,705 vectors** (98.2% Corpus Nummorum) |
+| Hallucination on structured facts | **Zero** |
+| Test suite | **122 / 122 passing** |
+| Docker services | **7** |
+| End-to-end latency | **< 20 s** |
+| Hybrid search latency | **< 1 ms** |
 | PDF generation | **~0.4–0.5 s** |
-| Frontend pages | **9**  classify · history · explore · chat · admin · docs · about · auth |
-| CI matrix | Python 3.11 + 3.12 · flake8 · black · tsc |
 
 ### Key Engineering Decisions
 
 | Decision | Choice | Why |
 |----------|--------|-----|
 | CNN backbone | EfficientNet-B3 | Compound scaling fits 4.3 GB VRAM; B7 does not |
-| Preprocessing | CLAHE on LAB L-channel | Enhances contrast without destroying metal patina colour information |
-| Class imbalance | WeightedRandomSampler | 40:1 ratio  equalises per-class exposure |
-| Regularisation | Mixup α=0.2 + label smoothing 0.1 | Prevents memorisation on small dataset (7,677 images) |
-| Explainability | Grad-CAM++ at `features[-4]` 19×19 | 3.6× finer than `features[-1]`; sharper multi-instance attention |
-| Agent framework | LangGraph over CrewAI | Explicit state machine, conditional routing, cycles, production-ready |
-| RAG retrieval | BM25 + ChromaDB + RRF | BM25 catches exact keyword hits; vectors catch semantic similarity; RRF merges both at zero reranker latency |
-| Chunking | 5 semantic chunks per coin type | Targeted embeddings  material queries hit the material chunk, not a blurred blob |
-| LLM grounding | `[CONTEXT N]` citation blocks | LLM writes prose; KB provides facts  structurally prevents hallucination |
-| Security | `hmac.compare_digest` on API keys | Constant-time comparison prevents timing-oracle attacks |
-| Thread safety | Double-checked locking on all singletons | Prevents OOM races on RAGEngine + LLM client cold startup |
-| Deployment architecture | Modular monolith + Docker service mesh | FastAPI/agents run as a single process (correct for a 1-person team); infrastructure concerns (DB, cache, observability, storage, reverse proxy) are fully decoupled into 8 independent Docker services: postgres · redis · nginx · mlflow · localstack · grafana · prometheus · alertmanager |
+| Preprocessing | CLAHE on LAB L-channel | Enhances contrast without destroying metal patina colour |
+| Class imbalance | WeightedRandomSampler | 40:1 ratio — equalises per-class exposure |
+| Regularisation | Mixup α=0.2 + label smoothing 0.1 | Prevents memorisation on 7,677 images |
+| Explainability | Grad-CAM++ at `features[-4]` 19×19 | 3.6× finer than `features[-1]` |
+| Agent framework | LangGraph over CrewAI | Explicit state machine, conditional routing, cycles |
+| RAG retrieval | BM25 + ChromaDB + RRF | Keyword + semantic + zero reranker latency |
+| LLM grounding | `[CONTEXT N]` citation blocks | Structurally prevents hallucination |
+| Security | `hmac.compare_digest` on API keys | Prevents timing-oracle attacks |
+| Thread safety | Double-checked locking on singletons | Prevents OOM races on RAGEngine cold startup |
+
 ### Research Finding
 
-The same trained model scored **80% on modern composite photographs** but only **15–28% on BNF 1966 catalog scans** of identical coin types  same model, same classes, different photographic era. This is an **intra-dataset distribution shift** not previously documented in numismatic ML literature. Documented in `ENGINEERING_JOURNAL.md §184`. Directly relevant to any institution digitising from analog historical catalogs.
-
-`PyTorch` `LangGraph` `EfficientNet-B3` `ChromaDB` `BM25` `RRF` `FastAPI` `Next.js 15` `PostgreSQL` `Redis` `MLflow` `Docker` `Prometheus` `Grafana` `GitHub Actions` `Grad-CAM++` `Active Learning` `Pydantic v2` `Ollama` `fpdf2`
+The same trained model scored **80% on modern photographs** but only **15–28% on BNF 1966 catalog scans** of identical coin types — same model, same classes, different photographic era. An **intra-dataset distribution shift not previously documented** in numismatic ML literature. Documented in `ENGINEERING_JOURNAL.md §184`.
 
 ---
 
@@ -153,68 +130,99 @@ The same trained model scored **80% on modern composite photographs** but only *
 
 | Project | What it does | Stack | Key result |
 |---------|-------------|-------|------------|
-| [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core) | 5-agent LangGraph platform for archaeological coin classification  CNN + hybrid RAG + LLM + full-stack | PyTorch · LangGraph · FastAPI · Next.js 15 · ChromaDB · Docker | 80.03% TTA · 47k vectors · 122/122 tests · < 20 s latency · zero hallucination |
-| [DevOps_SpringBoot](https://github.com/ChaiebDhia/DevOps_SpringBoot) | 18-stage Jenkins CI/CD pipeline  quality gates, zero-downtime deploys, full observability | Jenkins · Docker · SonarQube · Nexus · Prometheus · Grafana | 99.98% deployment success · < 2 min CI runtime · 100% test coverage gate |
-| [Microservices](https://github.com/ChaiebDhia/Microservices) | Cloud-native travel platform  6 independently scalable services with service mesh | Spring Cloud (Eureka · Gateway · Config) · Angular · MySQL · Docker | Service discovery · inter-service fault tolerance · API gateway routing |
-| [SkillBridge](https://github.com/InnovativeSquad-PI-4TWIN4/PiWebInovativeSquad) | AI-augmented MERN skill exchange platform  real-time P2P video + Gemini AI (team of 5) | React · Node.js · MongoDB · Socket.io · WebRTC · Gemini API · Docker | Chatbot · voice assistant · quiz generator · PDF summariser · live P2P calls |
-| [Voice-Controlled IoT](https://github.com/ChaiebDhia/Voice-Controlled-Assistive-Tech-with-Arduino-IoT) | Voice-controlled assistive prototype  Arduino wheelchair simulator + Python GUI assistant | Python · Arduino · HC-05 Bluetooth · SpeechRecognition · tkinter | Hands-free navigation · layered IoT architecture (perception → network → application) |
+| [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core) | 5-agent LangGraph platform — CNN + hybrid RAG + LLM + full-stack | PyTorch · LangGraph · FastAPI · Next.js 15 · ChromaDB · Docker | 80.03% TTA · 47k vectors · 122/122 tests · zero hallucination |
+| [Overlord Pipeline](https://github.com/ChaiebDhia/overlord-ai-video-pipeline) | 5-stage multi-LLM video pipeline — GPT-4o + Whisper word timestamps + FFmpeg | TypeScript · Node.js · OpenAI · Claude · GROQ · FFmpeg | <15s generation · ~$0.02/video · 100% free-tier capable |
+| [SkillBridge](https://github.com/ChaiebDhia/SkillBridge) | AI-augmented MERN skill exchange platform — team of 5 | React · Node.js · MongoDB · WebRTC · Socket.io · Gemini API | P2P video · quiz engine · PDF summariser · live collab |
+| [DevOps Pipeline](https://github.com/ChaiebDhia/DevOps_SpringBoot) | 18-stage Jenkins CI/CD — quality gates, zero-downtime deploys | Jenkins · Docker · SonarQube · Prometheus · Grafana | 99.98% success rate · < 2 min runtime |
+| [Voice IoT](https://github.com/ChaiebDhia/Voice-Controlled-Assistive-Tech-with-Arduino-IoT) | Voice-controlled assistive prototype — Arduino + Python | Python · Arduino · HC-05 · SpeechRecognition | Hands-free navigation · layered IoT architecture |
 
 ---
 
 ## Technical Stack
 
-**Agentic AI & LLM Systems**
-`LangGraph` `Multi-agent orchestration` `Confidence-based routing` `Graceful degradation` `Prompt grounding` `Hallucination mitigation` `Citation-block RAG` `Gemini API` `Ollama` `LangChain`
+<div align="center">
 
-**RAG & Hybrid Search**
-`ChromaDB` `BM25` `RRF fusion` `Semantic chunking` `all-MiniLM-L6-v2` `Vector indexing` `Knowledge base construction`
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_API-D4A843?style=flat-square)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
-**ML & Computer Vision**
-`PyTorch` `EfficientNet` `Transfer learning` `TTA` `Grad-CAM++` `Active Learning` `MLflow` `OpenCV` `CLAHE` `HSV forensics` `Albumentations`
+</div>
 
-**Backend & Data**
-`FastAPI` `Pydantic v2` `PostgreSQL` `Redis` `MongoDB` `SQLAlchemy` `JWT` `HSTS/CSP` `Rate limiting` `Structured JSON logging` `SSE streaming`
+---
 
-**Frontend**
-`Next.js 15 (App Router)` `React` `TypeScript` `Tailwind CSS` `TanStack Query` `Framer Motion` `Zustand` `WebRTC` `Socket.io` `i18n (next-intl)`
+## GitHub Stats
 
-**DevOps & Cloud**
-`Docker Compose` `GitHub Actions` `Jenkins (18-stage)` `Prometheus` `Grafana` `Alertmanager` `Nginx` `SonarQube` `Nexus` `AWS` `Oracle OCI`
+<div align="center">
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=c9d1d9"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=c9d1d9&langs_count=8&hide=html,css"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=ChaiebDhia&theme=tokyonight&hide_border=true&background=0d1117&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6" alt="GitHub Streak"/>
+
+</div>
 
 ---
 
 ## Experience
 
-**AI Engineer  PFE (Graduation Project)** · YEBNI, Tunisia · Feb 2026 – Jul 2026
+**AI Engineer — PFE** · YEBNI, Tunisia · Feb 2026 – Jul 2026
 
-Sole architect and engineer of DeepCoin-Core. End-to-end ownership across CNN training (EfficientNet-B3, AMP, Mixup, WeightedRandomSampler, 80.03% TTA), 5-agent LangGraph orchestration, hybrid RAG pipeline (BM25 + ChromaDB + RRF, 47,705 vectors), 9-page Next.js 15 frontend, JWT/HSTS/CSP security hardening, 122-test pytest suite, and CI/CD on GitHub Actions. Discovered and documented a novel intra-dataset distribution shift in numismatic ML not previously reported in the literature.
+Sole architect of DeepCoin-Core. End-to-end ownership: CNN training (EfficientNet-B3, AMP, Mixup, WeightedRandomSampler, 80.03% TTA), 5-agent LangGraph orchestration, hybrid RAG (BM25 + ChromaDB + RRF, 47,705 vectors), 9-page Next.js 15 frontend, JWT/HSTS/CSP security hardening, 122-test pytest suite, CI/CD on GitHub Actions. Discovered and documented a novel intra-dataset distribution shift in numismatic ML not previously reported in the literature.
 
-**Full-Stack Engineering Intern** · Tunisia Telecom · Jul 2025 – Aug 2025
+**Full-Stack Engineering Intern** · Tunisia Telecom · Jun 2025 – Aug 2025
 
-Python automation platform for FTTH & 5G operations serving 14M+ subscribers. Netmiko scripting across Cisco/Huawei network equipment for ACL, Anti-DDoS, RADIUS, and QoS provisioning  80% reduction in manual configuration time. Delivered Streamlit + Plotly real-time KPI dashboard (latency < 25 ms · throughput > 95 Mbps · availability > 99.5%).
+Python automation platform serving 14M+ subscribers. Netmiko across Cisco/Huawei — 80% reduction in manual configuration time. Real-time KPI dashboard: < 25 ms latency · 99.5% availability.
 
 **Full-Stack Intern** · Bright Soft · Jul 2022 – Aug 2022
 
-React/Node.js SaaS feature development and AI/NLP document processing workflows. Introduced unit testing practices that improved release confidence.
+React/Node.js SaaS features and AI/NLP document processing pipelines.
 
 ---
 
 ## Education
 
-**ESPRIT, Tunis**  Engineering Degree · Intelligent Software Engineering (EUR-ACE accredited, BAC+5) · 2023–2026
+**ESPRIT, Tunis** — Engineering Degree · Intelligent Software Engineering (EUR-ACE, BAC+5) · 2023–2026
 
-**ISIK, Le Kef**  BSc Computer Science · Software Engineering · 2020–2023
+**ISIK, Le Kef** — BSc Computer Science · Software Engineering · 2020–2023
 
 ---
 
 ## Certifications
 
-`Anthropic Agent Skills` · `Aviatrix ACE  Multi-Cloud Network Associate` · `Oracle OCI Associate` · `AWS Cloud Foundations` · `Scrum Fundamentals Certified (SFC)`
+`Anthropic Agent Skills` · `Aviatrix ACE — Multi-Cloud` · `Oracle OCI Associate` · `AWS Cloud Foundations`
 
 ---
 
 ## Open to Work
 
-Open to **AI Engineer** and **Full-Stack AI** roles globally, remote or relocation. Available **July 2026**.
+**Available July 2026** — AI Engineer / Full-Stack AI  
+Relocation: **UAE · France · Germany · UK · Canada · Remote**
 
-[LinkedIn](https://linkedin.com/in/dhia-shayeb) · [Portfolio](https://dhiashayeb.vercel.app) · [dhiashayeb6@gmail.com](mailto:dhiashayeb6@gmail.com)
+<div align="center">
+
+[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-shayeb)
+[![View Portfolio](https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiashayeb.vercel.app)
+[![Send Email](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e40af,100:0f172a&height=100&section=footer" width="100%"/>
+
+</div>
