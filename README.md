@@ -17,9 +17,9 @@
 
 ---
 
-I build AI systems that ship to production. Not demos — platforms.
+I build AI systems that ship to production. Not demos  platforms.
 
-I own the full stack: data pipelines, model training, multi-agent orchestration, hybrid RAG, secure API design, and MLOps delivery. Currently finishing an Engineering degree in Intelligent Software Engineering at ESPRIT (EUR-ACE, July 2026) while serving as **sole architect** of DeepCoin-Core at YEBNI — a 5-agent LangGraph platform with 47,705-vector hybrid retrieval, EfficientNet-B3 at 80.03% TTA accuracy across 438 classes, and **zero hallucination on structured facts** — delivered solo on a 7-service Docker stack with 122 automated tests and a documented novel ML research finding.
+I own the full stack: data pipelines, model training, multi-agent orchestration, hybrid RAG, secure API design, and MLOps delivery. Currently finishing an Engineering degree in Intelligent Software Engineering at ESPRIT (EUR-ACE, July 2026) while serving as **sole architect** of DeepCoin-Core at YEBNI  a 5-agent LangGraph platform with 47,705-vector hybrid retrieval, EfficientNet-B3 at 80.03% TTA accuracy across 438 classes, and **zero hallucination on structured facts**  delivered solo on a 7-service Docker stack with 122 automated tests and a documented novel ML research finding.
 
 ---
 
@@ -27,7 +27,7 @@ I own the full stack: data pipelines, model training, multi-agent orchestration,
 
 > **A single coin photograph in. A grounded, cited historical report out. In under 20 seconds.**
 
-End-to-end agentic AI platform for archaeological numismatics. Classifies 2,300-year-old coins via CNN, validates with computer vision forensics, and generates hallucination-free historical reports using citation-constrained RAG — all through a 5-agent LangGraph state machine with graceful degradation on every path.
+End-to-end agentic AI platform for archaeological numismatics. Classifies 2,300-year-old coins via CNN, validates with computer vision forensics, and generates hallucination-free historical reports using citation-constrained RAG  all through a 5-agent LangGraph state machine with graceful degradation on every path.
 
 ### System Architecture
 
@@ -82,9 +82,9 @@ LLM FALLBACK CHAIN
   1. GitHub Models API (Gemini 2.5 Flash)
   2. Google AI Studio (1,500 req/day free)
   3. Local Ollama (gemma3:4b / qwen3-vl:4b)
-  4. Structured KB fallback — zero crash, zero hallucination
+  4. Structured KB fallback  zero crash, zero hallucination
 
-GRACEFUL DEGRADATION — SYSTEM NEVER RETURNS AN EMPTY REPORT
+GRACEFUL DEGRADATION  SYSTEM NEVER RETURNS AN EMPTY REPORT
   conf > 85% → CNN → RAG → LLM narrative → full PDF
   40–85%     → CNN → OpenCV validator → KB consensus → PDF
   < 40%      → Investigator → 3 nearest KB types → PDF
@@ -95,8 +95,8 @@ GRACEFUL DEGRADATION — SYSTEM NEVER RETURNS AN EMPTY REPORT
 
 | Metric | Result |
 |--------|--------|
-| CNN accuracy — TTA ×8, 438-class | **80.03%** |
-| Macro F1 — 438 classes | **0.7763** |
+| CNN accuracy  TTA ×8, 438-class | **80.03%** |
+| Macro F1  438 classes | **0.7763** |
 | Knowledge base | **9,541 types · 47,705 vectors** (98.2% Corpus Nummorum) |
 | Hallucination on structured facts | **Zero** |
 | Test suite | **122 / 122 passing** |
@@ -111,7 +111,7 @@ GRACEFUL DEGRADATION — SYSTEM NEVER RETURNS AN EMPTY REPORT
 |----------|--------|-----|
 | CNN backbone | EfficientNet-B3 | Compound scaling fits 4.3 GB VRAM; B7 does not |
 | Preprocessing | CLAHE on LAB L-channel | Enhances contrast without destroying metal patina colour |
-| Class imbalance | WeightedRandomSampler | 40:1 ratio — equalises per-class exposure |
+| Class imbalance | WeightedRandomSampler | 40:1 ratio  equalises per-class exposure |
 | Regularisation | Mixup α=0.2 + label smoothing 0.1 | Prevents memorisation on 7,677 images |
 | Explainability | Grad-CAM++ at `features[-4]` 19×19 | 3.6× finer than `features[-1]` |
 | Agent framework | LangGraph over CrewAI | Explicit state machine, conditional routing, cycles |
@@ -122,7 +122,7 @@ GRACEFUL DEGRADATION — SYSTEM NEVER RETURNS AN EMPTY REPORT
 
 ### Research Finding
 
-The same trained model scored **80% on modern photographs** but only **15–28% on BNF 1966 catalog scans** of identical coin types — same model, same classes, different photographic era. An **intra-dataset distribution shift not previously documented** in numismatic ML literature. Documented in `ENGINEERING_JOURNAL.md §184`.
+The same trained model scored **80% on modern photographs** but only **15–28% on BNF 1966 catalog scans** of identical coin types  same model, same classes, different photographic era. An **intra-dataset distribution shift not previously documented** in numismatic ML literature. Documented in `ENGINEERING_JOURNAL.md §184`.
 
 ---
 
@@ -130,11 +130,11 @@ The same trained model scored **80% on modern photographs** but only **15–28% 
 
 | Project | What it does | Stack | Key result |
 |---------|-------------|-------|------------|
-| [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core) | 5-agent LangGraph platform — CNN + hybrid RAG + LLM + full-stack | PyTorch · LangGraph · FastAPI · Next.js 15 · ChromaDB · Docker | 80.03% TTA · 47k vectors · 122/122 tests · zero hallucination |
-| [Overlord Pipeline](https://github.com/ChaiebDhia/overlord-ai-video-pipeline) | 5-stage multi-LLM video pipeline — GPT-4o + Whisper word timestamps + FFmpeg | TypeScript · Node.js · OpenAI · Claude · GROQ · FFmpeg | <15s generation · ~$0.02/video · 100% free-tier capable |
-| [SkillBridge](https://github.com/ChaiebDhia/SkillBridge) | AI-augmented MERN skill exchange platform — team of 5 | React · Node.js · MongoDB · WebRTC · Socket.io · Gemini API | P2P video · quiz engine · PDF summariser · live collab |
-| [DevOps Pipeline](https://github.com/ChaiebDhia/DevOps_SpringBoot) | 18-stage Jenkins CI/CD — quality gates, zero-downtime deploys | Jenkins · Docker · SonarQube · Prometheus · Grafana | 99.98% success rate · < 2 min runtime |
-| [Voice IoT](https://github.com/ChaiebDhia/Voice-Controlled-Assistive-Tech-with-Arduino-IoT) | Voice-controlled assistive prototype — Arduino + Python | Python · Arduino · HC-05 · SpeechRecognition | Hands-free navigation · layered IoT architecture |
+| [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core) | 5-agent LangGraph platform  CNN + hybrid RAG + LLM + full-stack | PyTorch · LangGraph · FastAPI · Next.js 15 · ChromaDB · Docker | 80.03% TTA · 47k vectors · 122/122 tests · zero hallucination |
+| [Overlord Pipeline](https://github.com/ChaiebDhia/overlord-ai-video-pipeline) | 5-stage multi-LLM video pipeline  GPT-4o + Whisper word timestamps + FFmpeg | TypeScript · Node.js · OpenAI · Claude · GROQ · FFmpeg | <15s generation · ~$0.02/video · 100% free-tier capable |
+| [SkillBridge](https://github.com/ChaiebDhia/SkillBridge) | AI-augmented MERN skill exchange platform  team of 5 | React · Node.js · MongoDB · WebRTC · Socket.io · Gemini API | P2P video · quiz engine · PDF summariser · live collab |
+| [DevOps Pipeline](https://github.com/ChaiebDhia/DevOps_SpringBoot) | 18-stage Jenkins CI/CD  quality gates, zero-downtime deploys | Jenkins · Docker · SonarQube · Prometheus · Grafana | 99.98% success rate · < 2 min runtime |
+| [Voice IoT](https://github.com/ChaiebDhia/Voice-Controlled-Assistive-Tech-with-Arduino-IoT) | Voice-controlled assistive prototype  Arduino + Python | Python · Arduino · HC-05 · SpeechRecognition | Hands-free navigation · layered IoT architecture |
 
 ---
 
@@ -184,13 +184,13 @@ The same trained model scored **80% on modern photographs** but only **15–28% 
 
 ## Experience
 
-**AI Engineer — PFE** · YEBNI, Tunisia · Feb 2026 – Jul 2026
+**AI Engineer  PFE** · YEBNI, Tunisia · Feb 2026 – Jul 2026
 
 Sole architect of DeepCoin-Core. End-to-end ownership: CNN training (EfficientNet-B3, AMP, Mixup, WeightedRandomSampler, 80.03% TTA), 5-agent LangGraph orchestration, hybrid RAG (BM25 + ChromaDB + RRF, 47,705 vectors), 9-page Next.js 15 frontend, JWT/HSTS/CSP security hardening, 122-test pytest suite, CI/CD on GitHub Actions. Discovered and documented a novel intra-dataset distribution shift in numismatic ML not previously reported in the literature.
 
 **Full-Stack Engineering Intern** · Tunisia Telecom · Jun 2025 – Aug 2025
 
-Python automation platform serving 14M+ subscribers. Netmiko across Cisco/Huawei — 80% reduction in manual configuration time. Real-time KPI dashboard: < 25 ms latency · 99.5% availability.
+Python automation platform serving 14M+ subscribers. Netmiko across Cisco/Huawei  80% reduction in manual configuration time. Real-time KPI dashboard: < 25 ms latency · 99.5% availability.
 
 **Full-Stack Intern** · Bright Soft · Jul 2022 – Aug 2022
 
@@ -200,22 +200,22 @@ React/Node.js SaaS features and AI/NLP document processing pipelines.
 
 ## Education
 
-**ESPRIT, Tunis** — Engineering Degree · Intelligent Software Engineering (EUR-ACE, BAC+5) · 2023–2026
+**ESPRIT, Tunis**  Engineering Degree · Intelligent Software Engineering (EUR-ACE, BAC+5) · 2023–2026
 
-**ISIK, Le Kef** — BSc Computer Science · Software Engineering · 2020–2023
+**ISIK, Le Kef**  BSc Computer Science · Software Engineering · 2020–2023
 
 ---
 
 ## Certifications
 
-`Anthropic Agent Skills` · `Aviatrix ACE — Multi-Cloud` · `Oracle OCI Associate` · `AWS Cloud Foundations`
+`Anthropic Agent Skills` · `Aviatrix ACE  Multi-Cloud` · `Oracle OCI Associate` · `AWS Cloud Foundations`
 
 ---
 
 ## Open to Work
 
-**Available July 2026** — AI Engineer / Full-Stack AI  
-Relocation: **UAE · France · Germany · UK · Canada · Remote**
+**Available July 2026**  AI Engineer / Full-Stack AI  
+Open to Relocation
 
 <div align="center">
 
