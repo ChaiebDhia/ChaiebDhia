@@ -171,7 +171,7 @@ The same trained model scored **80% on modern photographs** but only **15–28% 
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=c9d1d9"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=c9d1d9&hide_rank=true"/>
 <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=c9d1d9&langs_count=8&hide=html,css"/>
 
 <br/>
