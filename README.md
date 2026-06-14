@@ -188,7 +188,7 @@ The same trained model scored **80% on modern photographs** but only **15–28% 
 
 Sole architect of DeepCoin-Core. End-to-end ownership: CNN training (EfficientNet-B3, AMP, Mixup, WeightedRandomSampler, 80.03% TTA), 5-agent LangGraph orchestration, hybrid RAG (BM25 + ChromaDB + RRF, 47,705 vectors), 9-page Next.js 15 frontend, JWT/HSTS/CSP security hardening, 122-test pytest suite, CI/CD on GitHub Actions. Discovered and documented a novel intra-dataset distribution shift in numismatic ML not previously reported in the literature.
 
-**Full-Stack Engineering Intern** · Tunisia Telecom · Jun 2025 – Aug 2025
+**Full-Stack Engineering Intern** · Tunisia Telecom · June 2025 – Aug 2025
 
 Python automation platform serving 14M+ subscribers. Netmiko across Cisco/Huawei  80% reduction in manual configuration time. Real-time KPI dashboard: < 25 ms latency · 99.5% availability.
 
