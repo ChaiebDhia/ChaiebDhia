@@ -214,7 +214,7 @@ React/Node.js SaaS features and AI/NLP document processing pipelines.
 
 ## Open to Work
 
-**Available July 2026**  AI Engineer / Full-Stack AI  
+**Available 2026**  AI Engineer / Full-Stack AI  
 Open to Relocation
 
 <div align="center">
