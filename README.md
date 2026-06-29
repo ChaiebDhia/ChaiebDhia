@@ -184,7 +184,7 @@ The same trained model scored **80% on modern photographs** but only **15–28% 
 
 ## Experience
 
-**AI Engineer  PFE** · YEBNI, Tunisia · Feb 2026 – Jul 2026
+**AI Engineer** · YEBNI, Tunisia · Feb 2026 – Jul 2026
 
 Sole architect of DeepCoin-Core. End-to-end ownership: CNN training (EfficientNet-B3, AMP, Mixup, WeightedRandomSampler, 80.03% TTA), 5-agent LangGraph orchestration, hybrid RAG (BM25 + ChromaDB + RRF, 47,705 vectors), 9-page Next.js 15 frontend, JWT/HSTS/CSP security hardening, 122-test pytest suite, CI/CD on GitHub Actions. Discovered and documented a novel intra-dataset distribution shift in numismatic ML not previously reported in the literature.
 
