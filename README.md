@@ -11,7 +11,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-dhiashayeb.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiashayeb.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--shayeb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-shayeb)
 [![Email](https://img.shields.io/badge/Email-dhiashayeb6@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
-[![Available](https://img.shields.io/badge/Open%20to%20Work-July%202026-22c55e?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
+[![Available](https://img.shields.io/badge/Open%20to%20Work-%202026-22c55e?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
 
 </div>
 
@@ -184,7 +184,7 @@ The same trained model scored **80% on modern photographs** but only **15–28% 
 
 ## Experience
 
-**AI Engineer** · YEBNI, Tunisia · Feb 2026 – Jul 2026
+**AI/ML Engineer** · YEBNI, Tunisia · Feb 2026 – Jul 2026
 
 Sole architect of DeepCoin-Core. End-to-end ownership: CNN training (EfficientNet-B3, AMP, Mixup, WeightedRandomSampler, 80.03% TTA), 5-agent LangGraph orchestration, hybrid RAG (BM25 + ChromaDB + RRF, 47,705 vectors), 9-page Next.js 15 frontend, JWT/HSTS/CSP security hardening, 122-test pytest suite, CI/CD on GitHub Actions. Discovered and documented a novel intra-dataset distribution shift in numismatic ML not previously reported in the literature.
 
@@ -214,7 +214,7 @@ React/Node.js SaaS features and AI/NLP document processing pipelines.
 
 ## Open to Work
 
-**Available 2026**  AI Engineer / Full-Stack AI  
+**Available 2026**  AI Engineer / Full-Stack AI / AI Engineer
 Open to Relocation
 
 <div align="center">
