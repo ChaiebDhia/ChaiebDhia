@@ -12,6 +12,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--shayeb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-shayeb)
 [![Email](https://img.shields.io/badge/Email-dhiashayeb6@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
 [![Available](https://img.shields.io/badge/Open%20to%20Work-%202026-22c55e?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
+[![Relocation](https://img.shields.io/badge/Open%20to%20Relocation-Yes-blue?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
 
 </div>
 
