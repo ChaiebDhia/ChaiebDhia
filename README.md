@@ -18,9 +18,18 @@
 
 ---
 
-I build AI systems that ship to production. Not demos  platforms.
+I build AI systems that ship. Not prototypes — production.
 
-I own the full stack: data pipelines, model training, multi-agent orchestration, hybrid RAG, secure API design, and MLOps delivery. Currently finishing an Engineering degree in Intelligent Software Engineering at ESPRIT (EUR-ACE, July 2026) while serving as **sole architect** of DeepCoin-Core at YEBNI  a 5-agent LangGraph platform with 47,705-vector hybrid retrieval, EfficientNet-B3 at 80.03% TTA accuracy across 438 classes, and **zero hallucination on structured facts**  delivered solo on a 7-service Docker stack with 122 automated tests and a documented novel ML research finding.
+I own the full stack: data pipelines, model training, multi-agent orchestration, 
+hybrid RAG, secure API design, and MLOps delivery. For my project 
+at YEBNI, I architected DeepCoin-Core — a 5-agent LangGraph platform with 
+47,705-vector hybrid retrieval, EfficientNet-B3 at 80.03% TTA accuracy across 
+438 classes, and zero hallucination on structured facts through citation-constrained 
+RAG. Delivered end-to-end on a 7-service Docker stack with 133 automated tests, 
+a full-stack Next.js 15 frontend, and a documented novel ML research finding on 
+intra-dataset distribution shift.
+
+Open to AI/ML Engineer roles. Immediate relocation.
 
 ---
 
