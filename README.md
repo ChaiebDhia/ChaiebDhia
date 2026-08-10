@@ -4,15 +4,15 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=750&lines=Building+AI+systems+that+ship+to+production.;LangGraph+%C2%B7+Hybrid+RAG+%C2%B7+MLOps+%C2%B7+Full-Stack;47k-vector+RAG+%C2%B7+92%25+cost+reduction+%C2%B7+80.03%25+CV;Open+to+Relocation%3A+USA+%C2%B7+Europe+%C2%B7+Asia-Pacific+%C2%B7+Gulf)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=750&lines=Building+AI+systems+that+ship+to+production.;LangGraph+%C2%B7+Hybrid+RAG+%C2%B7+MLOps+%C2%B7+Full-Stack;47k-vector+RAG+%C2%B7+92%25+cost+reduction+%C2%B7+80.03%25+CV;Open+to+Relocation%3A+UAE+%C2%B7+Germany+%C2%B7+Netherlands+%C2%B7+Canada)](https://git.io/typing-svg)
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-dhiashayeb.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiashayeb.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--shayeb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-shayeb)
 [![Email](https://img.shields.io/badge/Email-dhiashayeb6@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
-[![Available](https://img.shields.io/badge/Open%20to%20Work-%202026-22c55e?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
-[![Relocation](https://img.shields.io/badge/Open%20to%20Relocation-Yes-blue?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
+[![Available](https://img.shields.io/badge/Open%20to%20Work-August%202026-22c55e?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
+[![Relocation](https://img.shields.io/badge/Open%20to%20Relocation-UAE%20%C2%B7%20Germany%20%C2%B7%20NL%20%C2%B7%20CA-blue?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
 
 </div>
 
@@ -20,16 +20,16 @@
 
 I build AI systems that ship. Not prototypes — production.
 
-I own the full stack: data pipelines, model training, multi-agent orchestration, 
-hybrid RAG, secure API design, and MLOps delivery. For my project 
-at YEBNI, I architected DeepCoin-Core — a 5-agent LangGraph platform with 
-47,705-vector hybrid retrieval, EfficientNet-B3 at 80.03% TTA accuracy across 
-438 classes, and zero hallucination on structured facts through citation-constrained 
-RAG. Delivered end-to-end on a 7-service Docker stack with 133 automated tests, 
-a full-stack Next.js 15 frontend, and a documented novel ML research finding on 
+I own the full stack: data pipelines, model training, multi-agent orchestration,
+hybrid RAG, secure API design, and MLOps delivery. For my graduation project
+at YEBNI, I architected DeepCoin-Core — a 5-agent LangGraph platform with
+47,705-vector hybrid retrieval, EfficientNet-B3 at 80.03% TTA accuracy across
+438 classes, and zero hallucination on structured facts through citation-constrained
+RAG. Delivered end-to-end on a 7-service Docker stack with 122 passing tests,
+a full-stack Next.js 15 frontend, and a documented novel ML research finding on
 intra-dataset distribution shift.
 
-Open to AI/ML Engineer roles. Immediate relocation.
+Open to AI Engineer roles. Immediate relocation.
 
 ---
 
@@ -37,7 +37,7 @@ Open to AI/ML Engineer roles. Immediate relocation.
 
 > **A single coin photograph in. A grounded, cited historical report out. In under 20 seconds.**
 
-End-to-end agentic AI platform for archaeological numismatics. Classifies 2,300-year-old coins via CNN, validates with computer vision forensics, and generates hallucination-free historical reports using citation-constrained RAG  all through a 5-agent LangGraph state machine with graceful degradation on every path.
+End-to-end agentic AI platform for archaeological numismatics. Classifies 2,300-year-old coins via CNN, validates with computer vision forensics, and generates hallucination-free historical reports using citation-constrained RAG — all through a 5-agent LangGraph state machine with graceful degradation on every path.
 
 ### System Architecture
 
@@ -92,9 +92,9 @@ LLM FALLBACK CHAIN
   1. GitHub Models API (Gemini 2.5 Flash)
   2. Google AI Studio (1,500 req/day free)
   3. Local Ollama (gemma3:4b / qwen3-vl:4b)
-  4. Structured KB fallback  zero crash, zero hallucination
+  4. Structured KB fallback — zero crash, zero hallucination
 
-GRACEFUL DEGRADATION  SYSTEM NEVER RETURNS AN EMPTY REPORT
+GRACEFUL DEGRADATION — SYSTEM NEVER RETURNS AN EMPTY REPORT
   conf > 85% → CNN → RAG → LLM narrative → full PDF
   40–85%     → CNN → OpenCV validator → KB consensus → PDF
   < 40%      → Investigator → 3 nearest KB types → PDF
@@ -105,8 +105,8 @@ GRACEFUL DEGRADATION  SYSTEM NEVER RETURNS AN EMPTY REPORT
 
 | Metric | Result |
 |--------|--------|
-| CNN accuracy  TTA ×8, 438-class | **80.03%** |
-| Macro F1  438 classes | **0.7763** |
+| CNN accuracy — TTA ×8, 438-class | **80.03%** |
+| Macro F1 — 438 classes | **0.7763** |
 | Knowledge base | **9,541 types · 47,705 vectors** (98.2% Corpus Nummorum) |
 | Hallucination on structured facts | **Zero** |
 | Test suite | **122 / 122 passing** |
@@ -121,18 +121,19 @@ GRACEFUL DEGRADATION  SYSTEM NEVER RETURNS AN EMPTY REPORT
 |----------|--------|-----|
 | CNN backbone | EfficientNet-B3 | Compound scaling fits 4.3 GB VRAM; B7 does not |
 | Preprocessing | CLAHE on LAB L-channel | Enhances contrast without destroying metal patina colour |
-| Class imbalance | WeightedRandomSampler | 40:1 ratio  equalises per-class exposure |
+| Class imbalance | WeightedRandomSampler | 40:1 ratio — equalises per-class exposure |
 | Regularisation | Mixup α=0.2 + label smoothing 0.1 | Prevents memorisation on 7,677 images |
-| Explainability | Grad-CAM++ at `features[-4]` 19×19 | 3.6× finer than `features[-1]` |
+| Explainability | Grad-CAM++ at features[-4] 19×19 | 3.6x finer than features[-1] |
 | Agent framework | LangGraph over CrewAI | Explicit state machine, conditional routing, cycles |
 | RAG retrieval | BM25 + ChromaDB + RRF | Keyword + semantic + zero reranker latency |
-| LLM grounding | `[CONTEXT N]` citation blocks | Structurally prevents hallucination |
-| Security | `hmac.compare_digest` on API keys | Prevents timing-oracle attacks |
+| LLM grounding | [CONTEXT N] citation blocks | Structurally prevents hallucination |
+| Protocol | MCP (Model Context Protocol) | Standard agent-to-tool interface for extensibility |
+| Security | hmac.compare_digest on API keys | Prevents timing-oracle attacks |
 | Thread safety | Double-checked locking on singletons | Prevents OOM races on RAGEngine cold startup |
 
 ### Research Finding
 
-The same trained model scored **80% on modern photographs** but only **15–28% on BNF 1966 catalog scans** of identical coin types  same model, same classes, different photographic era. An **intra-dataset distribution shift not previously documented** in numismatic ML literature. Documented in `ENGINEERING_JOURNAL.md §184`.
+The same trained model scored **80% on modern photographs** but only **15–28% on BNF 1966 catalog scans** of identical coin types — same model, same classes, different photographic era. An **intra-dataset distribution shift not previously documented** in numismatic ML literature. Documented in `ENGINEERING_JOURNAL.md §184`.
 
 ---
 
@@ -140,11 +141,10 @@ The same trained model scored **80% on modern photographs** but only **15–28% 
 
 | Project | What it does | Stack | Key result |
 |---------|-------------|-------|------------|
-| [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core) | 5-agent LangGraph platform  CNN + hybrid RAG + LLM + full-stack | PyTorch · LangGraph · FastAPI · Next.js 15 · ChromaDB · Docker | 80.03% TTA · 47k vectors · 122/122 tests · zero hallucination |
-| [Overlord Pipeline](https://github.com/ChaiebDhia/overlord-ai-video-pipeline) | 5-stage multi-LLM video pipeline  GPT-4o + Whisper word timestamps + FFmpeg | TypeScript · Node.js · OpenAI · Claude · GROQ · FFmpeg | <15s generation · ~$0.02/video · 100% free-tier capable |
-| [SkillBridge](https://github.com/ChaiebDhia/SkillBridge) | AI-augmented MERN skill exchange platform  team of 5 | React · Node.js · MongoDB · WebRTC · Socket.io · Gemini API | P2P video · quiz engine · PDF summariser · live collab |
-| [DevOps Pipeline](https://github.com/ChaiebDhia/DevOps_SpringBoot) | 18-stage Jenkins CI/CD  quality gates, zero-downtime deploys | Jenkins · Docker · SonarQube · Prometheus · Grafana | 99.98% success rate · < 2 min runtime |
-| [Voice IoT](https://github.com/ChaiebDhia/Voice-Controlled-Assistive-Tech-with-Arduino-IoT) | Voice-controlled assistive prototype  Arduino + Python | Python · Arduino · HC-05 · SpeechRecognition | Hands-free navigation · layered IoT architecture |
+| [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core) | 5-agent LangGraph platform — CNN + hybrid RAG + LLM + full-stack | PyTorch · LangGraph · FastAPI · Next.js 15 · ChromaDB · Docker | 80.03% TTA · 47k vectors · 122/122 tests · zero hallucination |
+| [Overlord Pipeline](https://github.com/ChaiebDhia/overlord-ai-video-pipeline) | 5-stage multi-LLM video pipeline — GPT-4o + Whisper word timestamps + FFmpeg | TypeScript · Node.js · OpenAI · Claude · GROQ · FFmpeg | Less than 15s generation · approx $0.02/video · 100% free-tier capable |
+| [SkillBridge](https://github.com/InnovativeSquad-PI-4TWIN4/PiWebInovativeSquad) | AI-augmented MERN skill exchange platform — team of 5 | React · Node.js · MongoDB · WebRTC · Socket.io · Gemini API | P2P video · quiz engine · PDF summariser · live collab |
+| [DevOps Pipeline](https://github.com/ChaiebDhia/DevOps_SpringBoot) | 18-stage Jenkins CI/CD — quality gates, zero-downtime deploys | Jenkins · Docker · SonarQube · Prometheus · Grafana | 99.98% success rate · less than 2 min runtime |
 
 ---
 
@@ -153,6 +153,7 @@ The same trained model scored **80% on modern photographs** but only **15–28% 
 <div align="center">
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-6366F1?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_API-D4A843?style=flat-square)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
@@ -194,13 +195,13 @@ The same trained model scored **80% on modern photographs** but only **15–28% 
 
 ## Experience
 
-**AI/ML Engineer** · YEBNI, Tunisia · Feb 2026 – Jul 2026
+**AI Engineer** · YEBNI, Tunisia · Feb 2026 – Aug 2026
 
-Sole architect of DeepCoin-Core. End-to-end ownership: CNN training (EfficientNet-B3, AMP, Mixup, WeightedRandomSampler, 80.03% TTA), 5-agent LangGraph orchestration, hybrid RAG (BM25 + ChromaDB + RRF, 47,705 vectors), 9-page Next.js 15 frontend, JWT/HSTS/CSP security hardening, 122-test pytest suite, CI/CD on GitHub Actions. Discovered and documented a novel intra-dataset distribution shift in numismatic ML not previously reported in the literature.
+Sole architect of DeepCoin-Core. End-to-end ownership: CNN training (EfficientNet-B3, AMP, Mixup, WeightedRandomSampler, 80.03% TTA), 5-agent LangGraph orchestration, hybrid RAG (BM25 + ChromaDB + RRF, 47,705 vectors), 9-page Next.js 15 frontend, JWT/HSTS/CSP security hardening, 122-test pytest suite, CI/CD on GitHub Actions. Discovered and documented a novel intra-dataset distribution shift in numismatic ML not previously reported in the literature. Cut commercial LLM spend 92% by routing to local Ollama under Pydantic v2 schema enforcement.
 
 **Full-Stack Engineering Intern** · Tunisia Telecom · June 2025 – Aug 2025
 
-Python automation platform serving 14M+ subscribers. Netmiko across Cisco/Huawei  80% reduction in manual configuration time. Real-time KPI dashboard: < 25 ms latency · 99.5% availability.
+Python automation platform serving 14M+ subscribers. Netmiko scripting across Cisco/Huawei — 80% reduction in manual configuration time. Real-time KPI dashboard: less than 25ms latency, 99.5% availability.
 
 **Full-Stack Intern** · Bright Soft · Jul 2022 – Aug 2022
 
@@ -210,22 +211,23 @@ React/Node.js SaaS features and AI/NLP document processing pipelines.
 
 ## Education
 
-**ESPRIT, Tunis**  Engineering Degree · Intelligent Software Engineering (EUR-ACE, BAC+5) · 2023–2026
+**ESPRIT, Tunis** — Engineering Degree · Intelligent Software Engineering (EUR-ACE, BAC+5) · 2023–2026
 
-**ISIK, Le Kef**  BSc Computer Science · Software Engineering · 2020–2023
+**ISIK, Le Kef** — BSc Computer Science · Software Engineering · 2020–2023
 
 ---
 
 ## Certifications
 
-`Anthropic Agent Skills` · `Aviatrix ACE  Multi-Cloud` · `Oracle OCI Associate` · `AWS Cloud Foundations`
+`Anthropic Agent Skills` · `Aviatrix ACE — Multi-Cloud` · `Oracle OCI Associate` · `AWS Academy Cloud Foundations`
 
 ---
 
 ## Open to Work
 
-**Available 2026**  AI Engineer / Full-Stack AI / ML Engineer /
-Open to Relocation
+**Available August 2026** — AI Engineer · Applied AI Engineer · Forward-Deployed AI Engineer
+
+Open to Relocation — UAE · Germany · Netherlands · Canada · Ireland · Remote
 
 <div align="center">
 
