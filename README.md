@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=750&lines=Building+AI+systems+that+ship+to+production.;LangGraph+%C2%B7+Hybrid+RAG+%C2%B7+MLOps+%C2%B7+Full-Stack;47k-vector+RAG+%C2%B7+92%25+cost+reduction+%C2%B7+80.03%25+CV;Available+Now+%C2%B7+UAE+%C2%B7+Germany+%C2%B7+Netherlands+%C2%B7+Canada)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=750&lines=Building+AI+systems+that+ship+to+production.;LangGraph+%C2%B7+Hybrid+RAG+%C2%B7+MLOps+%C2%B7+Full-Stack;47k-vector+RAG+%C2%B7+92%25+cost+reduction+%C2%B7+80.03%25+CV;Available+for+Immediate+Worldwide+Relocation)](https://git.io/typing-svg)
 
 <br/>
 
@@ -225,11 +225,9 @@ React and Node.js SaaS features and AI/NLP document processing pipelines.
 
 ## Open to Work
 
-**Available Now · Immediate Relocation**
+**Available Now · Immediate Relocation Worldwide**
 
 AI Engineer · Applied AI Engineer · Forward-Deployed AI Engineer
-
-UAE · Germany · Netherlands · Canada · Ireland · Remote
 
 <div align="center">
 
