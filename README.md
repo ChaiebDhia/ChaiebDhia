@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e40af&height=200&section=header&text=Dhia%20Shayeb&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20Agentic%20Systems%20%C2%B7%20Hybrid%20RAG%20%C2%B7%20MLOps%20%C2%B7%20Full-Stack&descAlignY=58&descSize=18&descColor=93c5fd" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e40af&height=200&section=header&text=Dhia%20Chaieb&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20Agentic%20Systems%20%C2%B7%20Hybrid%20RAG%20%C2%B7%20MLOps%20%C2%B7%20Full-Stack&descAlignY=58&descSize=18&descColor=93c5fd" width="100%"/>
 
 <br/>
 
@@ -8,11 +8,11 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-dhiashayeb.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiashayeb.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--shayeb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-shayeb)
-[![Email](https://img.shields.io/badge/Email-dhiashayeb6@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
-[![Available](https://img.shields.io/badge/Available-Now-22c55e?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
-[![Relocation](https://img.shields.io/badge/Relocation-Immediate-blue?style=for-the-badge)](mailto:dhiashayeb6@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-dhiaChaieb.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiaChaieb.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--Chaieb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-Chaieb)
+[![Email](https://img.shields.io/badge/Email-dhiaChaieb6@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiaChaieb6@gmail.com)
+[![Available](https://img.shields.io/badge/Available-Now-22c55e?style=for-the-badge)](mailto:dhiaChaieb6@gmail.com)
+[![Relocation](https://img.shields.io/badge/Relocation-Immediate-blue?style=for-the-badge)](mailto:dhiaChaieb6@gmail.com)
 
 </div>
 
@@ -231,9 +231,9 @@ AI Engineer · Applied AI Engineer · Forward-Deployed AI Engineer
 
 <div align="center">
 
-[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-shayeb)
-[![View Portfolio](https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiashayeb.vercel.app)
-[![Send Email](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
+[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-Chaieb)
+[![View Portfolio](https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiaChaieb.vercel.app)
+[![Send Email](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiaChaieb6@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e40af,100:0f172a&height=100&section=footer" width="100%"/>
 
