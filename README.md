@@ -8,11 +8,11 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-dhiaChaieb.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiaChaieb.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--Chaieb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-Chaieb)
-[![Email](https://img.shields.io/badge/Email-dhiaChaieb6@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiaChaieb6@gmail.com)
-[![Available](https://img.shields.io/badge/Available-Now-22c55e?style=for-the-badge)](mailto:dhiaChaieb6@gmail.com)
-[![Relocation](https://img.shields.io/badge/Relocation-Immediate-blue?style=for-the-badge)](mailto:dhiaChaieb6@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-dhiaShayeb.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiaShayeb.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--Shayeb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-Shayeb)
+[![Email](https://img.shields.io/badge/Email-dhiaShayeb6@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiaShayeb6@gmail.com)
+[![Available](https://img.shields.io/badge/Available-Now-22c55e?style=for-the-badge)](mailto:dhiaShayeb6@gmail.com)
+[![Relocation](https://img.shields.io/badge/Relocation-Immediate-blue?style=for-the-badge)](mailto:dhiaShayeb6@gmail.com)
 
 </div>
 
@@ -33,7 +33,7 @@ Available now. Immediate relocation.
 
 ---
 
-## Flagship · [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core)
+## Flagship · [DeepCoin-Core](https://github.com/ShayebDhia/DeepCoin-Core)
 
 > **A single coin photograph in. A grounded, cited historical report out. In under 20 seconds.**
 
@@ -141,10 +141,10 @@ The same trained model scored **80% on modern photographs** but only **15 to 28%
 
 | Project | What it does | Stack | Key result |
 |---------|-------------|-------|------------|
-| [DeepCoin-Core](https://github.com/ChaiebDhia/DeepCoin-Core) | 5-agent LangGraph platform, CNN + hybrid RAG + LLM + full-stack | PyTorch · LangGraph · FastAPI · Next.js 15 · ChromaDB · Docker | 80.03% TTA · 47k vectors · 122/122 tests · zero hallucination |
-| [Overlord Pipeline](https://github.com/ChaiebDhia/overlord-ai-video-pipeline) | 5-stage multi-LLM video pipeline, GPT-4o + Whisper word timestamps + FFmpeg | TypeScript · Node.js · OpenAI · Claude · GROQ · FFmpeg | Under 15s generation · approx $0.02/video · 100% free-tier capable |
+| [DeepCoin-Core](https://github.com/ShayebDhia/DeepCoin-Core) | 5-agent LangGraph platform, CNN + hybrid RAG + LLM + full-stack | PyTorch · LangGraph · FastAPI · Next.js 15 · ChromaDB · Docker | 80.03% TTA · 47k vectors · 122/122 tests · zero hallucination |
+| [Overlord Pipeline](https://github.com/ShayebDhia/overlord-ai-video-pipeline) | 5-stage multi-LLM video pipeline, GPT-4o + Whisper word timestamps + FFmpeg | TypeScript · Node.js · OpenAI · Claude · GROQ · FFmpeg | Under 15s generation · approx $0.02/video · 100% free-tier capable |
 | [SkillBridge](https://github.com/InnovativeSquad-PI-4TWIN4/PiWebInovativeSquad) | AI-augmented MERN skill exchange platform, team of 5 | React · Node.js · MongoDB · WebRTC · Socket.io · Gemini API | P2P video · quiz engine · PDF summariser · live collab |
-| [DevOps Pipeline](https://github.com/ChaiebDhia/DevOps_SpringBoot) | 18-stage Jenkins CI/CD, quality gates, zero-downtime deploys | Jenkins · Docker · SonarQube · Prometheus · Grafana | 99.98% success rate · under 2 min runtime |
+| [DevOps Pipeline](https://github.com/ShayebDhia/DevOps_SpringBoot) | 18-stage Jenkins CI/CD, quality gates, zero-downtime deploys | Jenkins · Docker · SonarQube · Prometheus · Grafana | 99.98% success rate · under 2 min runtime |
 
 ---
 
@@ -182,12 +182,12 @@ The same trained model scored **80% on modern photographs** but only **15 to 28%
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=ChaiebDhia&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=c9d1d9&hide_rank=true"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaiebDhia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=c9d1d9&langs_count=8&hide=html,css"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=ShayebDhia&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=3b82f6&text_color=c9d1d9&hide_rank=true"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShayebDhia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=c9d1d9&langs_count=8&hide=html,css"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=ChaiebDhia&theme=tokyonight&hide_border=true&background=0d1117&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com/?user=ShayebDhia&theme=tokyonight&hide_border=true&background=0d1117&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6" alt="GitHub Streak"/>
 
 </div>
 
@@ -231,9 +231,9 @@ AI Engineer · Applied AI Engineer · Forward-Deployed AI Engineer
 
 <div align="center">
 
-[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-Chaieb)
-[![View Portfolio](https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiaChaieb.vercel.app)
-[![Send Email](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiaChaieb6@gmail.com)
+[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhia-Shayeb)
+[![View Portfolio](https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dhiaShayeb.vercel.app)
+[![Send Email](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiaShayeb6@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e40af,100:0f172a&height=100&section=footer" width="100%"/>
 
