@@ -1,13 +1,11 @@
 <div align="center">
 
-# Dhia Chaieb
+<img src="assets/banner.svg" alt="Dhia Chaieb, AI / ML Engineer. Open to new opportunities." width="100%"/>
 
-**AI / ML Engineer · Applied AI · Computer Vision · MLOps · LLM systems**
+**I build AI systems end to end: data, model, retrieval, API, interface, monitoring.**
+Based in Tunis · Arabic, French, English · **Ready to relocate (visa sponsorship needed): UK · EU · Gulf · Singapore · Japan**
 
-I build AI systems end to end: data, model, retrieval, API, interface, monitoring.
-Based in Tunis. **Open to new opportunities. Ready to relocate (visa sponsorship needed): UK · EU · Gulf · Singapore · Japan.**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-dhia--shayeb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhia-shayeb/)
+[![Hire me](https://img.shields.io/badge/%F0%9F%9F%A2_Open_to_new_opportunities-Message_me_on_LinkedIn-22c55e?style=for-the-badge)](https://www.linkedin.com/in/dhia-shayeb/)
 [![Email](https://img.shields.io/badge/Email-dhiashayeb6%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiashayeb6@gmail.com)
 [![Flagship](https://img.shields.io/badge/Flagship-DeepCoin--Core-1e40af?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChaiebDhia/DeepCoin-Core)
 
@@ -42,6 +40,26 @@ My ESPRIT graduation project, built at YEBNI (Feb to Aug 2026). It identifies an
 - **Work inside real constraints.** 4 GB of VRAM, small and imbalanced data (about 17 images per class on average, 40:1 imbalance), local-first models.
 - **Say what is not measured.** Honest evaluation and clear limits, in writing.
 - **Work across languages and cultures.** Arabic, French, English.
+
+---
+
+## Roles I'm looking for, and how I'd do them
+
+| Role | What I bring | Evidence in my work |
+|---|---|---|
+| **AI Engineer** | Models and LLM systems that run in production, not notebooks | DeepCoin-Core: PyTorch model, FastAPI, Next.js, Docker Compose, CI/CD |
+| **Applied AI Engineer** | Turning a fuzzy problem into a measured, working system | Held-out evaluation, Grad-CAM++ explanations, honest limits, published corrections |
+| **Forward-Deployed Engineer** | Scoping with the user, building the thin end-to-end slice fast, explaining trade-offs plainly | Solo build with a company supervisor (YEBNI); sourced reports and a UI built for curators, not ML specialists |
+| **Machine Learning Engineer** | Training, tracking, serving and retraining | EfficientNet-B3 fine-tuning, MLflow, active-learning loop with weighted retraining |
+| **Computer Vision Engineer** | Fine-grained recognition on small, imbalanced data | 438 classes, about 17 images per class, 40:1 imbalance, 79.60% top-1 held-out |
+| **LLM / RAG Engineer** | Grounded generation you can check | Hybrid BM25 + vector retrieval with RRF, citation prompts, fallback chain |
+| **MLOps Engineer** | Tests, pipelines and monitoring | 133 tests, GitHub Actions, 11-service Compose stack, Prometheus / Alertmanager / Grafana |
+
+<div align="center">
+
+<img src="assets/how-i-work.svg" alt="How I work: scope, build the slice, measure, ship, iterate" width="100%"/>
+
+</div>
 
 ---
 
