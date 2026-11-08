@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Dhia Chaieb: AI Engineer, Applied ML, Data Science. I build AI systems end to end, then test them until the numbers hold." width="100%"/>
+<img src="assets/banner_.svg" alt="Dhia Chaieb: AI Engineer, Applied ML, Data Science. I build AI systems end to end, then test them until the numbers hold." width="100%"/>
 
 **AI systems you can trust, and forecasts that say how sure they are.**
 Tunis · Arabic, French, English · **Relocating (visa sponsorship needed): UK · EU · Gulf · Singapore · Japan**
